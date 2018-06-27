@@ -2,13 +2,20 @@ import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
+import utility.StringFormatter;
 
 import java.io.File;
+
+/**
+ * Author: Marlon
+ * Created on: 23-6-2018
+ * Class representing a parser, responsible for retrieving the relevant information from the input XML.
+ */
 
 public class RDFParser {
     public static void main(String[] args) {
         RDFParser RDFParser = new RDFParser();
-        RDFParser.testMethod(RDFParser.parse(new File("centraal_station_middelburg.xml")));
+        RDFParser.printCurrentParsedFile(RDFParser.parse(new File("centraal_station_middelburg.xml")));
     }
 
     /**
@@ -27,30 +34,31 @@ public class RDFParser {
         }
         return doc;
     }
-        
+
 
     /**
-     * TODO: Remove
-     *
+     * Prints the formatted content of the file currently being handled
      * @param doc Document to be parsed
      */
-    private void testMethod(Document doc) {
+    private void printCurrentParsedFile(Document doc) {
         Element root = doc.getRootElement();
         System.out.println("Root element: " + root.getQualifiedName());
         System.out.println();
 
+        //Label or name
         System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/rdfs:label").getName() + ": " +
-                doc.selectSingleNode("/rdf:RDF/swivt:Subject/rdfs:label").getStringValue());
+                StringFormatter.replaceSpaceWithLowercase(doc.selectSingleNode("/rdf:RDF/swivt:Subject/rdfs:label").getStringValue()));
 
-        String str = doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Context/@rdf:resource").getStringValue();
+        //Context, whose string is changed to make it more readable
+        System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Context").getName() + ": " +
+                StringFormatter.retrieveFinalArtifactFromURI(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Context/@rdf:resource").getStringValue()));
 
-        str = str.substring(str.lastIndexOf('/') + 1);
 
-        System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Context").getName() + ": " + str);
-
+        //Transport type
         System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Transport").getName() + ": " +
                 doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Transport").getStringValue());
 
+        //Intentional element type
         System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Intentional_Element_type").getName() + ": " +
                 doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Intentional_Element_type").getStringValue());
 
