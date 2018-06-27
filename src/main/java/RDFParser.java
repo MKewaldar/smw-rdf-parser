@@ -1,6 +1,5 @@
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
-import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 import utility.StringFormatter;
 
@@ -14,8 +13,9 @@ import java.io.File;
 
 public class RDFParser {
     public static void main(String[] args) {
-        RDFParser RDFParser = new RDFParser();
-        RDFParser.printCurrentParsedFile(RDFParser.parse(new File("centraal_station_middelburg.xml")));
+        RDFParser parser = new RDFParser();
+        parser.printCurrentParsedFile(parser.parse(new File("input/centraal_station_middelburg.xml")));
+        parser.printCurrentParsedFile(parser.parse(new File("input/Autoweg Mburg-Vliss.xml")));
     }
 
     /**
@@ -41,10 +41,6 @@ public class RDFParser {
      * @param doc Document to be parsed
      */
     private void printCurrentParsedFile(Document doc) {
-        Element root = doc.getRootElement();
-        System.out.println("Root element: " + root.getQualifiedName());
-        System.out.println();
-
         //Label or name
         System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/rdfs:label").getName() + ": " +
                 StringFormatter.replaceSpaceWithLowercase(doc.selectSingleNode("/rdf:RDF/swivt:Subject/rdfs:label").getStringValue()));
@@ -62,5 +58,6 @@ public class RDFParser {
         System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Intentional_Element_type").getName() + ": " +
                 doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Intentional_Element_type").getStringValue());
 
+        System.out.println("------------------------------------");
     }
 }

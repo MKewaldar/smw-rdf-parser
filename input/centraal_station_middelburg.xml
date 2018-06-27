@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+        <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+        <!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+        <!ENTITY wiki 'http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/'>
+        <!ENTITY category 'http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3A'>
+        <!ENTITY property 'http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3A'>
+        <!ENTITY wikiurl 'http://195.93.238.56/wiki/portfoliotest/wiki/index.php/'>
+        ]>
+
+<rdf:RDF
+        xmlns:rdf="&rdf;"
+        xmlns:rdfs="&rdfs;"
+        xmlns:owl="&owl;"
+        xmlns:swivt="&swivt;"
+        xmlns:property="&property;">
+
+    <owl:Ontology
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:RDFExporteren/Centraal_Station_Middelburg">
+        <swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-21T10:48:50+02:00
+        </swivt:creationDate>
+        <owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+    </owl:Ontology>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg">
+        <rdf:type
+                rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Intentional_Element"/>
+        <rdf:type
+                rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+        <rdfs:label>Centraal Station Middelburg</rdfs:label>
+        <swivt:page rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Centraal_Station_Middelburg"/>
+        <rdfs:isDefinedBy
+                rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:RDFExporteren/Centraal_Station_Middelburg"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Context rdf:resource="&wiki;SCitHos_Area_Middelburg"/>
+        <property:Intentional_Element_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condition
+        </property:Intentional_Element_type>
+        <property:Transport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trein</property:Transport>
+        <property:Has_query rdf:resource="&wiki;Centraal_Station_Middelburg-23_QUERY3934c3eaf42f6cd7b1a61b1fbf546c6b"/>
+        <property:Has_query rdf:resource="&wiki;Centraal_Station_Middelburg-23_QUERY0002ed8e07a770cdb14d1ed3e3acbff2"/>
+        <property:Has_query rdf:resource="&wiki;Centraal_Station_Middelburg-23_QUERY8a92d7f1b725cf66ab15ff3a3efebb2e"/>
+        <property:Has_query rdf:resource="&wiki;Centraal_Station_Middelburg-23_QUERYb8204a9989ff85048bc5aac61d22c13a"/>
+        <property:Has_query rdf:resource="&wiki;Centraal_Station_Middelburg-23_QUERY8f3af0f68d856ad765e3a849dc8890a1"/>
+        <property:Has_query rdf:resource="&wiki;Centraal_Station_Middelburg-23_QUERYebe642030d493f7b423c23a81c660cbc"/>
+        <property:Has_query rdf:resource="&wiki;Centraal_Station_Middelburg-23_QUERY5f62b65cc3ef3028e426968593f28e7d"/>
+        <swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-07T12:46:55Z
+        </swivt:wikiPageModificationDate>
+        <property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458277.032581
+        </property:Modification_date-23aux>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Middelburg
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERY3934c3eaf42f6cd7b1a61b1fbf546c6b">
+        <swivt:masterPage rdf:resource="&wiki;Centraal_Station_Middelburg"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Categorie:Intentional Element]]
+            [[Part of::Centraal Station Middelburg]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Middelburg
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERY0002ed8e07a770cdb14d1ed3e3acbff2">
+        <swivt:masterPage rdf:resource="&wiki;Centraal_Station_Middelburg"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Element link::Centraal Station
+            Middelburg]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Middelburg
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERY8a92d7f1b725cf66ab15ff3a3efebb2e">
+        <swivt:masterPage rdf:resource="&wiki;Centraal_Station_Middelburg"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Centraal Station Middelburg]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Middelburg
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERYb8204a9989ff85048bc5aac61d22c13a">
+        <swivt:masterPage rdf:resource="&wiki;Centraal_Station_Middelburg"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Paragraph back link::Centraal
+            Station Middelburg]] [[Paragraph language::Dutch||Dutch-English]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Middelburg
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERY8f3af0f68d856ad765e3a849dc8890a1">
+        <swivt:masterPage rdf:resource="&wiki;Centraal_Station_Middelburg"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Beeldmateriaal back
+            link::Centraal Station Middelburg]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Middelburg
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERYebe642030d493f7b423c23a81c660cbc">
+        <swivt:masterPage rdf:resource="&wiki;Centraal_Station_Middelburg"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Model link::Centraal Station
+            Middelburg]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Middelburg
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERY5f62b65cc3ef3028e426968593f28e7d">
+        <swivt:masterPage rdf:resource="&wiki;Centraal_Station_Middelburg"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Centraal Station Middelburg]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Middelburg
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate"/>
+    <owl:Class
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Intentional_Element"/>
+    <owl:Class
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+    <owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page"/>
+    <owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace"/>
+    <owl:ObjectProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AContext"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AIntentional_Element_type"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3ATransport"/>
+    <owl:ObjectProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AHas_query"/>
+    <owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AModification_date-23aux"/>
+    <owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey"/>
+    <owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#masterPage"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AQuery_depth"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AQuery_format"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AQuery_size"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AQuery_string"/>
+    <!-- Created by Semantic MediaWiki, https://www.semantic-mediawiki.org/ -->
+</rdf:RDF>
