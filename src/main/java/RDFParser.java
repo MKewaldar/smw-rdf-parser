@@ -5,18 +5,19 @@ import org.dom4j.io.SAXReader;
 
 import java.io.File;
 
-public class Main {
+public class RDFParser {
     public static void main(String[] args) {
-        Main main = new Main();
-        main.testMethod(main.parse(new File("centraal_station_middelburg.xml")));
+        RDFParser RDFParser = new RDFParser();
+        RDFParser.testMethod(RDFParser.parse(new File("centraal_station_middelburg.xml")));
     }
 
     /**
      * Reads the XML document
+     *
      * @param file File to read
      * @return Document object ready to be reasoned with
      */
-    private Document parse(File file)  {
+    private Document parse(File file) {
         SAXReader reader = new SAXReader();
         org.dom4j.Document doc = null;
         try {
@@ -25,11 +26,13 @@ public class Main {
             e.printStackTrace();
         }
         return doc;
-        }
+    }
+        
 
     /**
      * TODO: Remove
-     * @param doc
+     *
+     * @param doc Document to be parsed
      */
     private void testMethod(Document doc) {
         Element root = doc.getRootElement();
@@ -41,12 +44,15 @@ public class Main {
 
         String str = doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Context/@rdf:resource").getStringValue();
 
-        str = str.substring(str.lastIndexOf('/')+1 );
+        str = str.substring(str.lastIndexOf('/') + 1);
 
-        System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Context").getName() + ": " + str );
+        System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Context").getName() + ": " + str);
 
         System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Transport").getName() + ": " +
-        doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Transport").getStringValue());
+                doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Transport").getStringValue());
+
+        System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Intentional_Element_type").getName() + ": " +
+                doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Intentional_Element_type").getStringValue());
 
     }
 }
