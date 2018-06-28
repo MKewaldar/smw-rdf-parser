@@ -1,9 +1,11 @@
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
+import org.dom4j.Node;
 import org.dom4j.io.SAXReader;
 import utility.StringFormatter;
 
 import java.io.File;
+import java.util.List;
 
 /**
  * Author: Marlon
@@ -14,8 +16,10 @@ import java.io.File;
 public class RDFParser {
     public static void main(String[] args) {
         RDFParser parser = new RDFParser();
-        parser.printCurrentParsedFile(parser.parse(new File("input/centraal_station_middelburg.xml")));
-        parser.printCurrentParsedFile(parser.parse(new File("input/Autoweg Mburg-Vliss.xml")));
+        //parser.printCurrentParsedFile(parser.parse(new File("input/centraal_station_middelburg.xml")));
+        //parser.printCurrentParsedFile(parser.parse(new File("input/Autoweg Mburg-Vliss.xml")));
+        parser.printCurrentParsedFile(parser.parse(new File("input/twee_resources.xml")));
+
     }
 
     /**
@@ -41,23 +45,46 @@ public class RDFParser {
      * @param doc Document to be parsed
      */
     private void printCurrentParsedFile(Document doc) {
-        //Label or name
-        System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/rdfs:label").getName() + ": " +
-                StringFormatter.replaceSpaceWithLowercase(doc.selectSingleNode("/rdf:RDF/swivt:Subject/rdfs:label").getStringValue()));
+        List<Node> n = doc.selectNodes("/rdf:RDF/swivt:Subject/rdfs:label/..");
 
-        //Context, whose string is changed to make it more readable
-        System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Context").getName() + ": " +
-                StringFormatter.retrieveFinalArtifactFromURI(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Context/@rdf:resource").getStringValue()));
+        for (Node node : n) {
+
+//                //Label or name
+//                System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/rdfs:label").getName() + ": " +
+//                        StringFormatter.replaceSpaceWithLowercase(doc.selectSingleNode("/rdf:RDF/swivt:Subject/rdfs:label").getStringValue()));
+//
+//                //Context, whose string is changed to make it more readable
+//                System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Context").getName() + ": " +
+//                        StringFormatter.retrieveFinalArtifactFromURI(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Context/@rdf:resource").getStringValue()));
+//
+//
+//                //Transport type
+//                System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Transport").getName() + ": " +
+//                        doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Transport").getStringValue());
+//
+//                //Intentional element type
+//                System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Intentional_Element_type").getName() + ": " +
+//                        doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Intentional_Element_type").getStringValue());
+//                System.out.println("------------------------------------");
+
+            //Label or name
+            System.out.println(node.selectSingleNode("rdfs:label").getName() + ": " +
+                    StringFormatter.replaceSpaceWithLowercase(node.selectSingleNode("rdfs:label").getStringValue()));
+
+            //Context, whose string is changed to make it more readable
+            System.out.println(node.selectSingleNode("property:Context").getName() + ": " +
+                    StringFormatter.retrieveFinalArtifactFromURI(node.selectSingleNode
+                            ("property:Context/@rdf:resource").getStringValue()));
 
 
-        //Transport type
-        System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Transport").getName() + ": " +
-                doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Transport").getStringValue());
+            //Transport type
+            System.out.println(node.selectSingleNode("property:Transport").getName() + ": " +
+                    node.selectSingleNode("property:Transport").getStringValue());
 
-        //Intentional element type
-        System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Intentional_Element_type").getName() + ": " +
-                doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Intentional_Element_type").getStringValue());
-
-        System.out.println("------------------------------------");
+            //Intentional element type
+            System.out.println(node.selectSingleNode("property:Intentional_Element_type").getName() + ": " +
+                    node.selectSingleNode("property:Intentional_Element_type").getStringValue());
+            System.out.println("------------------------------------");
+        }
     }
 }
