@@ -18,7 +18,7 @@
         xmlns:property="&property;">
 
     <owl:Ontology>
-        <swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-28T13:34:43+02:00
+        <swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-02T10:41:08+02:00
         </swivt:creationDate>
         <owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
     </owl:Ontology>
@@ -36,7 +36,10 @@
         <property:Context rdf:resource="&wiki;SCitHos_Area_Vlissingen"/>
         <property:Dummy_element_contribution_value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">--
         </property:Dummy_element_contribution_value>
+        <property:Dummy_element_contribution_value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">+/-
+        </property:Dummy_element_contribution_value>
         <property:Dummy_element_link rdf:resource="&wiki;Bankertstrand"/>
+        <property:Dummy_element_link rdf:resource="&wiki;Nollestrand"/>
         <property:Intentional_Element_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condition
         </property:Intentional_Element_type>
         <property:Transport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Voet</property:Transport>
@@ -47,13 +50,14 @@
         <property:Has_query rdf:resource="&wiki;Looppad_Mburg-2DVliss-23_QUERYf388943e02a57d40ecb85e85d6f479c3"/>
         <property:Has_query rdf:resource="&wiki;Looppad_Mburg-2DVliss-23_QUERY151982c16b405364e04136ee8a0550de"/>
         <property:Has_query rdf:resource="&wiki;Looppad_Mburg-2DVliss-23_QUERYf0fa25c54aad7f5ba3db4ed2abf5af9f"/>
-        <swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-07T12:59:32Z
+        <swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-07-02T08:37:00Z
         </swivt:wikiPageModificationDate>
-        <property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458277.0413426
+        <property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458301.8590278
         </property:Modification_date-23aux>
         <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Looppad Mburg-Vliss
         </swivt:wikiPageSortKey>
         <property:Has_subobject rdf:resource="&wiki;Looppad_Mburg-2DVliss-23_a3b82426b4dc9a6e66da9e2fdbc828db"/>
+        <property:Has_subobject rdf:resource="&wiki;Looppad_Mburg-2DVliss-23_e3fa818bf120e8f659a72dbc2990f7e7"/>
     </swivt:Subject>
     <swivt:Subject
             rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_QUERY6a633492b5faabbdd549392c7467a89a">
@@ -152,6 +156,19 @@
         <property:Element_contribution_value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">--
         </property:Element_contribution_value>
         <property:Element_link rdf:resource="&wiki;Bankertstrand"/>
+        <property:Element_link_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributes
+        </property:Element_link_type>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Looppad Mburg-Vliss
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_e3fa818bf120e8f659a72dbc2990f7e7">
+        <swivt:masterPage rdf:resource="&wiki;Looppad_Mburg-2DVliss"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Element_back_link rdf:resource="&wiki;Looppad_Mburg-2DVliss"/>
+        <property:Element_contribution_value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">+/-
+        </property:Element_contribution_value>
+        <property:Element_link rdf:resource="&wiki;Nollestrand"/>
         <property:Element_link_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributes
         </property:Element_link_type>
         <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Looppad Mburg-Vliss

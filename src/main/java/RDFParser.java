@@ -5,6 +5,8 @@ import org.dom4j.io.SAXReader;
 import utility.StringFormatter;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -16,8 +18,6 @@ import java.util.List;
 public class RDFParser {
     public static void main(String[] args) {
         RDFParser parser = new RDFParser();
-        //parser.printCurrentParsedFile(parser.parse(new File("input/centraal_station_middelburg.xml")));
-        //parser.printCurrentParsedFile(parser.parse(new File("input/Autoweg Mburg-Vliss.xml")));
         parser.printCurrentParsedFile(parser.parse(new File("input/twee_resources.xml")));
 
     }
@@ -30,7 +30,7 @@ public class RDFParser {
      */
     private Document parse(File file) {
         SAXReader reader = new SAXReader();
-        org.dom4j.Document doc = null;
+        Document doc = null;
         try {
             doc = reader.read(file);
         } catch (DocumentException e) {
@@ -47,44 +47,63 @@ public class RDFParser {
     private void printCurrentParsedFile(Document doc) {
         List<Node> n = doc.selectNodes("/rdf:RDF/swivt:Subject/rdfs:label/..");
 
+        System.out.println("Currently parsing: " + doc.getName());
+        System.out.println();
         for (Node node : n) {
-
-//                //Label or name
-//                System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/rdfs:label").getName() + ": " +
-//                        StringFormatter.replaceSpaceWithLowercase(doc.selectSingleNode("/rdf:RDF/swivt:Subject/rdfs:label").getStringValue()));
-//
-//                //Context, whose string is changed to make it more readable
-//                System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Context").getName() + ": " +
-//                        StringFormatter.retrieveFinalArtifactFromURI(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Context/@rdf:resource").getStringValue()));
-//
-//
-//                //Transport type
-//                System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Transport").getName() + ": " +
-//                        doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Transport").getStringValue());
-//
-//                //Intentional element type
-//                System.out.println(doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Intentional_Element_type").getName() + ": " +
-//                        doc.selectSingleNode("/rdf:RDF/swivt:Subject/property:Intentional_Element_type").getStringValue());
-//                System.out.println("------------------------------------");
-
             //Label or name
-            System.out.println(node.selectSingleNode("rdfs:label").getName() + ": " +
-                    StringFormatter.replaceSpaceWithLowercase(node.selectSingleNode("rdfs:label").getStringValue()));
+            System.out.println("Name" + ": " + getLabelStringValue(node));
 
             //Context, whose string is changed to make it more readable
-            System.out.println(node.selectSingleNode("property:Context").getName() + ": " +
-                    StringFormatter.retrieveFinalArtifactFromURI(node.selectSingleNode
-                            ("property:Context/@rdf:resource").getStringValue()));
-
+            System.out.println("Context" + ": " + getContextStringValue(node));
 
             //Transport type
-            System.out.println(node.selectSingleNode("property:Transport").getName() + ": " +
-                    node.selectSingleNode("property:Transport").getStringValue());
+            System.out.println("Transport" + ": " + getTransportStringValue(node));
 
             //Intentional element type
-            System.out.println(node.selectSingleNode("property:Intentional_Element_type").getName() + ": " +
-                    node.selectSingleNode("property:Intentional_Element_type").getStringValue());
-            System.out.println("------------------------------------");
+            System.out.println("Intentional Element Type" + ": " + getIntentionalElementStringValue(node));
+
+            //Contributes to relationships
+            for (String key : getContributesToRelationships(node).keySet()) {
+                System.out.println("Contributes to: " + key + "(" + getContributesToRelationships(node).get(key) + ")");
+            }
+            System.out.println();
         }
+            System.out.println("------------------------------------");
+    }
+
+    private String getLabelStringValue(Node node) {
+        return StringFormatter.replaceSpaceWithLowercase(node.selectSingleNode("rdfs:label").getStringValue());
+    }
+
+    private String getContextStringValue(Node node) {
+        return StringFormatter.retrieveFinalArtifactFromURI(node.selectSingleNode
+                ("property:Context/@rdf:resource").getStringValue());
+    }
+
+    private String getTransportStringValue(Node node) {
+        return node.selectSingleNode("property:Transport").getStringValue();
+    }
+
+    private String getIntentionalElementStringValue(Node node) {
+        return node.selectSingleNode("property:Intentional_Element_type").getStringValue().trim();
+
+    }
+
+    /**
+     * Initializes a HashMap with both the key and value of the contributes-to relationship
+     *
+     * @param node node which the HashMap will retrieve the information from
+     * @return HashMap with the required information
+     */
+    private HashMap<String, String> getContributesToRelationships(Node node) {
+        //Initialize two lists: one for the key (entity that is contributed to) and for the value (in what manner it is contributed to)
+        List<Node> contNodeNameList = new ArrayList<>(node.selectNodes("child::*[contains(name(), \"Dummy\")]/attribute::rdf:resource"));
+        List<Node> contNodeValueList = new ArrayList<>(node.selectNodes("child::*[contains(name(), \"property:Dummy_element_cont\")]"));
+        HashMap<String, String> map = new HashMap<>();
+        for (int i = 0; i < contNodeNameList.size(); ) {
+            map.put(StringFormatter.retrieveFinalArtifactFromURI(contNodeNameList.get(i).getStringValue()), contNodeValueList.get(i).getText());
+            i++;
+        }
+        return map;
     }
 }
