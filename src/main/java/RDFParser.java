@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * Author: Marlon
+ * Author: Marlon Kewaldar
  * Created on: 23-6-2018
  * Class representing a parser, responsible for retrieving the relevant information from the input XML.
  */
@@ -18,7 +18,7 @@ import java.util.List;
 public class RDFParser {
     public static void main(String[] args) {
         RDFParser parser = new RDFParser();
-        parser.printCurrentParsedFile(parser.parse(new File("input/twee_resources.xml")));
+        parser.printCurrentParsedFile(parser.parse(new File("input/twee_resources_new.xml")));
 
     }
 
@@ -77,7 +77,7 @@ public class RDFParser {
 
     private String getContextStringValue(Node node) {
         return StringFormatter.retrieveFinalArtifactFromURI(node.selectSingleNode
-                ("property:Context/@rdf:resource").getStringValue());
+                ("property:SCitHos_Context/@rdf:resource").getStringValue());
     }
 
     private String getTransportStringValue(Node node) {
@@ -101,7 +101,7 @@ public class RDFParser {
         List<Node> contNodeValueList = new ArrayList<>(node.selectNodes("child::*[contains(name(), \"property:Dummy_element_cont\")]"));
         HashMap<String, String> map = new HashMap<>();
         for (int i = 0; i < contNodeNameList.size(); ) {
-            map.put(StringFormatter.retrieveFinalArtifactFromURI(contNodeNameList.get(i).getStringValue()), contNodeValueList.get(i).getText());
+            map.put(StringFormatter.retrieveFinalArtifactFromURI(contNodeNameList.get(i).getStringValue()), contNodeValueList.get(i).getText().trim());
             i++;
         }
         return map;
