@@ -18,7 +18,7 @@ import java.util.List;
 public class RDFParser {
     public static void main(String[] args) {
         RDFParser parser = new RDFParser();
-        parser.printCurrentParsedFile(parser.parse(new File("input/twee_resources_new.xml")));
+        parser.printCurrentParsedFile(parser.parse(new File("input/twee_resources_ne.xml")));
 
     }
 
