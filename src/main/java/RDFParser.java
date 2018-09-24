@@ -4,10 +4,13 @@ import org.dom4j.Node;
 import org.dom4j.io.SAXReader;
 import utility.StringFormatter;
 
+import javax.swing.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Author: Marlon Kewaldar
@@ -18,8 +21,21 @@ import java.util.List;
 public class RDFParser {
     public static void main(String[] args) {
         RDFParser parser = new RDFParser();
-        parser.printCurrentParsedFile(parser.parse(new File("input/twee_resources_ne.xml")));
+        // initialize GUI
+        File workingDirectory = new File(System.getProperty("user.dir"));
+        JFileChooser jfc = new JFileChooser(workingDirectory);
+        jfc.setDialogTitle("Select an RDF file");
+        jfc.setAcceptAllFileFilterUsed(false);
+        FileNameExtensionFilter filter = new FileNameExtensionFilter("XML Files", "xml");
+        jfc.addChoosableFileFilter(filter);
 
+        int returnValue = jfc.showOpenDialog(null);
+        // int returnValue = jfc.showSaveDialog(null);
+
+        if (returnValue == JFileChooser.APPROVE_OPTION) {
+            File selectedFile = jfc.getSelectedFile();
+            parser.printCurrentParsedFile(parser.parse(selectedFile));
+        }
     }
 
     /**
@@ -42,6 +58,7 @@ public class RDFParser {
 
     /**
      * Prints the formatted content of the file currently being handled
+     *
      * @param doc Document to be parsed
      */
     private void printCurrentParsedFile(Document doc) {
@@ -50,43 +67,73 @@ public class RDFParser {
         System.out.println("Currently parsing: " + doc.getName());
         System.out.println();
         for (Node node : n) {
-            //Label or name
-            System.out.println("Name" + ": " + getLabelStringValue(node));
-
-            //Context, whose string is changed to make it more readable
-            System.out.println("Context" + ": " + getContextStringValue(node));
-
-            //Transport type
-            System.out.println("Transport" + ": " + getTransportStringValue(node));
-
-            //Intentional element type
-            System.out.println("Intentional Element Type" + ": " + getIntentionalElementStringValue(node));
-
-            //Contributes to relationships
-            for (String key : getContributesToRelationships(node).keySet()) {
-                System.out.println("Contributes to: " + key + "(" + getContributesToRelationships(node).get(key) + ")");
+            if (node.hasContent()) {
+                //Label or name
+                printLabelStringValue(node);
+                //Context, whose string is changed to make it more readable
+                printContextStringValue(node);
+                //Transport type
+                printTransportStringValue(node);
+                //Intentional element type
+                printIntentionalElementStringValue(node);
+                //Contributes to relationships
+                printContributesToRelationships(node);
+                //Depends on relationships
+                //printDependsOnRelationships(node);
+                System.out.println();
             }
-            System.out.println();
-        }
             System.out.println("------------------------------------");
+        }
     }
 
     private String getLabelStringValue(Node node) {
-        return StringFormatter.replaceSpaceWithLowercase(node.selectSingleNode("rdfs:label").getStringValue());
+        if (node.selectSingleNode("rdfs:label") != null)
+            return StringFormatter.replaceSpaceWithLowercase(node.selectSingleNode("rdfs:label").getStringValue());
+        else return null;
+    }
+
+    private void printLabelStringValue(Node node) {
+        if (node.selectSingleNode("rdfs:label") != null)
+            System.out.println("Name: " + StringFormatter.replaceSpaceWithLowercase(node.selectSingleNode("rdfs:label").getStringValue()));
     }
 
     private String getContextStringValue(Node node) {
-        return StringFormatter.retrieveFinalArtifactFromURI(node.selectSingleNode
-                ("property:SCitHos_Context/@rdf:resource").getStringValue());
+        if (node.selectSingleNode("property:SCitHos_Context/@rdf:resource") != null) {
+            return StringFormatter.retrieveFinalArtifactFromURI(node.selectSingleNode
+                    ("property:SCitHos_Context/@rdf:resource").getStringValue());
+        } else return null;
+    }
+
+    private void printContextStringValue(Node node) {
+        if (node.selectSingleNode("property:SCitHos_Context/@rdf:resource") != null) {
+            System.out.println("Context: " + StringFormatter.retrieveFinalArtifactFromURI(node.selectSingleNode
+                    ("property:SCitHos_Context/@rdf:resource").getStringValue()));
+        }
     }
 
     private String getTransportStringValue(Node node) {
-        return node.selectSingleNode("property:Transport").getStringValue();
+        if (node.selectSingleNode("property:Transport") != null) {
+            return node.selectSingleNode("property:Transport").getStringValue();
+        } else return null;
+    }
+
+    private void printTransportStringValue(Node node) {
+        if (node.selectSingleNode("property:Transport") != null) {
+            System.out.println("Transport: " + node.selectSingleNode("property:Transport").getStringValue());
+        }
     }
 
     private String getIntentionalElementStringValue(Node node) {
-        return node.selectSingleNode("property:Intentional_Element_type").getStringValue().trim();
+        if (node.selectSingleNode("property:Intentional_Element_type").getStringValue() != null) {
+            return node.selectSingleNode("property:Intentional_Element_type").getStringValue().trim();
+        } else return null;
+    }
 
+    private void printIntentionalElementStringValue(Node node) {
+        if (node.selectSingleNode("property:Intentional_Element_type") != null) {
+            System.out.println("Intentional Element Type: "
+                    + node.selectSingleNode("property:Intentional_Element_type").getStringValue().trim());
+        }
     }
 
     /**
@@ -96,14 +143,41 @@ public class RDFParser {
      * @return HashMap with the required information
      */
     private HashMap<String, String> getContributesToRelationships(Node node) {
-        //Initialize two lists: one for the key (entity that is contributed to) and for the value (in what manner it is contributed to)
-        List<Node> contNodeNameList = new ArrayList<>(node.selectNodes("child::*[contains(name(), \"Dummy\")]/attribute::rdf:resource"));
-        List<Node> contNodeValueList = new ArrayList<>(node.selectNodes("child::*[contains(name(), \"property:Dummy_element_cont\")]"));
-        HashMap<String, String> map = new HashMap<>();
-        for (int i = 0; i < contNodeNameList.size(); ) {
-            map.put(StringFormatter.retrieveFinalArtifactFromURI(contNodeNameList.get(i).getStringValue()), contNodeValueList.get(i).getText().trim());
-            i++;
-        }
-        return map;
+        if (node.selectSingleNode("child::*[contains(name(), \"Dummy\")]/attribute::rdf:resource") != null &&
+                node.selectSingleNode("child::*[contains(name(), \"property:Dummy_element_cont\")]") != null) {
+            //Initialize two lists: one for the key (entity that is contributed to) and for the value (in what manner it is contributed to)
+            List<Node> contNodeNameList = new ArrayList<>(node.selectNodes("child::*[contains(name(), \"Dummy\")]/attribute::rdf:resource"));
+            List<Node> contNodeValueList = new ArrayList<>(node.selectNodes("child::*[contains(name(), \"property:Dummy_element_cont\")]"));
+            HashMap<String, String> map = new HashMap<>();
+            for (int i = 0; i < contNodeNameList.size(); ) {
+                map.put(StringFormatter.retrieveFinalArtifactFromURI(contNodeNameList.get(i).getStringValue()), contNodeValueList.get(i).getText().trim());
+                i++;
+            }
+            return map;
+        } else return null;
     }
+
+    private void printContributesToRelationships(Node node) {
+        if (node.selectSingleNode("child::*[contains(name(), \"Dummy\")]/attribute::rdf:resource") != null &&
+                node.selectSingleNode("child::*[contains(name(), \"property:Dummy_element_cont\")]") != null) {
+            for (String key : Objects.requireNonNull(getContributesToRelationships(node)).keySet()) {
+                System.out.println("Contributes to: " + key + "(" + Objects.requireNonNull(getContributesToRelationships(node)).get(key) + ")");
+            }
+        }
+    }
+
+    private String getDependsOnRelationships(Node node) {
+        if (node.selectSingleNode("/rdf:RDF/swivt:Subject/property:Element_link/@rdf:resource") != null) {
+            return (node.selectSingleNode("/rdf:RDF/swivt:Subject/property:Element_link/@rdf:resource")).getStringValue();
+        } else return null;
+    }
+
+//    private void printDependsOnRelationships(Node node) {
+//        if (node.selectSingleNode("/rdf:RDF/swivt:Subject/property:Element_link/@rdf:resource") != null) {
+//            for (Node n : node.selectNodes("/rdf:RDF/swivt:Subject/property:Element_link/@rdf:resource")) {
+//                System.out.println("Depends on: " +
+//                        node.selectSingleNode("/rdf:RDF/swivt:Subject/property:Element_link/@rdf:resource").getStringValue());
+//            }
+//        }
+//    }
 }

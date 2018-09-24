@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+        <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+        <!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+        <!ENTITY wiki 'http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/'>
+        <!ENTITY category 'http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3A'>
+        <!ENTITY property 'http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3A'>
+        <!ENTITY wikiurl 'http://195.93.238.56/wiki/portfoliotest/wiki/index.php/'>
+        ]>
+
+<rdf:RDF
+        xmlns:rdf="&rdf;"
+        xmlns:rdfs="&rdfs;"
+        xmlns:owl="&owl;"
+        xmlns:swivt="&swivt;"
+        xmlns:property="&property;">
+
+    <owl:Ontology rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:RDFExporteren/Family">
+        <swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-24T14:32:37+02:00
+        </swivt:creationDate>
+        <owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+    </owl:Ontology>
+    <swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Family">
+        <rdf:type
+                rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Persona"/>
+        <rdf:type
+                rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+        <rdfs:label>Family</rdfs:label>
+        <swivt:page rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Family"/>
+        <rdfs:isDefinedBy
+                rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:RDFExporteren/Family"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A persona consisting of a family.
+        </property:Description>
+        <property:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family</property:Name>
+        <property:SCitHos_Context rdf:resource="&wiki;SCitHos_Area_Middelburg"/>
+        <property:Has_query rdf:resource="&wiki;Family-23_QUERY77b8c53999fc6ba70c48191c792f3d3e"/>
+        <property:Has_query rdf:resource="&wiki;Family-23_QUERY75781f348b3064b159d50c4845e9946d"/>
+        <property:Has_query rdf:resource="&wiki;Family-23_QUERYa59b54501643420f1f3bbdb33a015bc1"/>
+        <property:Has_query rdf:resource="&wiki;Family-23_QUERY6828c380678c51c0463a116c3b6ef937"/>
+        <property:Has_query rdf:resource="&wiki;Family-23_QUERYcd94082f370bd18c13c99f8dfd50e563"/>
+        <property:Has_query rdf:resource="&wiki;Family-23_QUERY1e17ac6eca4033b1fa4fc8766f52ecce"/>
+        <property:Has_query rdf:resource="&wiki;Family-23_QUERY5bbc408a1ea452227675c577750417db"/>
+        <swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-24T12:32:22Z
+        </swivt:wikiPageModificationDate>
+        <property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458386.0224769
+        </property:Modification_date-23aux>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family</swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Family-23_QUERY77b8c53999fc6ba70c48191c792f3d3e">
+        <swivt:masterPage rdf:resource="&wiki;Family"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Categorie:Intentional Element]]
+            [[Part of::Family]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family</swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Family-23_QUERY75781f348b3064b159d50c4845e9946d">
+        <swivt:masterPage rdf:resource="&wiki;Family"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Element link::Family]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family</swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Family-23_QUERYa59b54501643420f1f3bbdb33a015bc1">
+        <swivt:masterPage rdf:resource="&wiki;Family"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Family]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family</swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Family-23_QUERY6828c380678c51c0463a116c3b6ef937">
+        <swivt:masterPage rdf:resource="&wiki;Family"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Paragraph back link::Family]]
+            [[Paragraph language::Dutch||Dutch-English]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family</swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Family-23_QUERYcd94082f370bd18c13c99f8dfd50e563">
+        <swivt:masterPage rdf:resource="&wiki;Family"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Beeldmateriaal back
+            link::Family]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family</swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Family-23_QUERY1e17ac6eca4033b1fa4fc8766f52ecce">
+        <swivt:masterPage rdf:resource="&wiki;Family"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Model link::Family]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family</swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Family-23_QUERY5bbc408a1ea452227675c577750417db">
+        <swivt:masterPage rdf:resource="&wiki;Family"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Family]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family</swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate"/>
+    <owl:Class
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Persona"/>
+    <owl:Class
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+    <owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page"/>
+    <owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3ADescription"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AName"/>
+    <owl:ObjectProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3ASCitHos_Context"/>
+    <owl:ObjectProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AHas_query"/>
+    <owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AModification_date-23aux"/>
+    <owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey"/>
+    <owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#masterPage"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AQuery_depth"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AQuery_format"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AQuery_size"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AQuery_string"/>
+    <!-- Created by Semantic MediaWiki, https://www.semantic-mediawiki.org/ -->
+</rdf:RDF>

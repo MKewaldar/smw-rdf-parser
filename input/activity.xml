@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+        <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+        <!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+        <!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+        <!ENTITY wiki 'http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/'>
+        <!ENTITY category 'http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3A'>
+        <!ENTITY property 'http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3A'>
+        <!ENTITY wikiurl 'http://195.93.238.56/wiki/portfoliotest/wiki/index.php/'>
+        ]>
+
+<rdf:RDF
+        xmlns:rdf="&rdf;"
+        xmlns:rdfs="&rdfs;"
+        xmlns:owl="&owl;"
+        xmlns:swivt="&swivt;"
+        xmlns:property="&property;">
+
+    <owl:Ontology
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:RDFExporteren/Aankomen_thuisbasis">
+        <swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-24T12:44:35+02:00
+        </swivt:creationDate>
+        <owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+    </owl:Ontology>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis">
+        <rdf:type
+                rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Activity"/>
+        <rdf:type
+                rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+        <rdfs:label>Aankomen thuisbasis</rdfs:label>
+        <swivt:page rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Aankomen_thuisbasis"/>
+        <rdfs:isDefinedBy
+                rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:RDFExporteren/Aankomen_thuisbasis"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Concerns rdf:resource="&wiki;Duits_Gezin"/>
+        <property:Dummy_element_link rdf:resource="&wiki;Centraal_Station_Middelburg"/>
+        <property:Dummy_element_link rdf:resource="&wiki;Centraal_Station_Keulen"/>
+        <property:Intentional_Element_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activity
+        </property:Intentional_Element_type>
+        <property:SCitHos_Context rdf:resource="&wiki;Duits_Gezin"/>
+        <property:Has_query rdf:resource="&wiki;Aankomen_thuisbasis-23_QUERY0242cd1fef2f0b2921ebba769c67b1fd"/>
+        <property:Has_query rdf:resource="&wiki;Aankomen_thuisbasis-23_QUERY6fc7bcf9374d53a016a71c30d320292b"/>
+        <property:Has_query rdf:resource="&wiki;Aankomen_thuisbasis-23_QUERYf938d9250b51c009977ab804590020b4"/>
+        <property:Has_query rdf:resource="&wiki;Aankomen_thuisbasis-23_QUERY70d4a4b8586d50313b28c5a4d0521d0a"/>
+        <property:Has_query rdf:resource="&wiki;Aankomen_thuisbasis-23_QUERYaec765bcdacab8242b383b387b70b189"/>
+        <property:Has_query rdf:resource="&wiki;Aankomen_thuisbasis-23_QUERY2fb1187396ff18c7a82411c9fe3e8386"/>
+        <property:Has_query rdf:resource="&wiki;Aankomen_thuisbasis-23_QUERYe27d03d41257ab63e5581b1c2a95bae7"/>
+        <swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-07T12:55:36Z
+        </swivt:wikiPageModificationDate>
+        <property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458277.0386111
+        </property:Modification_date-23aux>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis
+        </swivt:wikiPageSortKey>
+        <property:Has_subobject rdf:resource="&wiki;Aankomen_thuisbasis-23_30a076e5b7243c4e54aaa48b5c216907"/>
+        <property:Has_subobject rdf:resource="&wiki;Aankomen_thuisbasis-23_9b4f201d6b9c12ab4d815db7fd2222e1"/>
+        <property:Has_subobject rdf:resource="&wiki;Aankomen_thuisbasis-23_8e3dfdc472ae0c25b8d9c08e2ec8d62b"/>
+        <property:Has_subobject rdf:resource="&wiki;Aankomen_thuisbasis-23_586ddac700d3e76841613bd87b1ec28c"/>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERY0242cd1fef2f0b2921ebba769c67b1fd">
+        <swivt:masterPage rdf:resource="&wiki;Aankomen_thuisbasis"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Aankomen thuisbasis]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERY6fc7bcf9374d53a016a71c30d320292b">
+        <swivt:masterPage rdf:resource="&wiki;Aankomen_thuisbasis"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Paragraph back link::Aankomen
+            thuisbasis]] [[Paragraph language::Dutch||Dutch-English]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERYf938d9250b51c009977ab804590020b4">
+        <swivt:masterPage rdf:resource="&wiki;Aankomen_thuisbasis"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Beeldmateriaal back
+            link::Aankomen thuisbasis]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERY70d4a4b8586d50313b28c5a4d0521d0a">
+        <swivt:masterPage rdf:resource="&wiki;Aankomen_thuisbasis"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Model link::Aankomen
+            thuisbasis]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERYaec765bcdacab8242b383b387b70b189">
+        <swivt:masterPage rdf:resource="&wiki;Aankomen_thuisbasis"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Aankomen thuisbasis]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERY2fb1187396ff18c7a82411c9fe3e8386">
+        <swivt:masterPage rdf:resource="&wiki;Aankomen_thuisbasis"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Categorie:Intentional Element]]
+            [[Part of::Aankomen thuisbasis]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERYe27d03d41257ab63e5581b1c2a95bae7">
+        <swivt:masterPage rdf:resource="&wiki;Aankomen_thuisbasis"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+        <property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+        <property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+        <property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Element link::Aankomen
+            thuisbasis]]
+        </property:Query_string>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_30a076e5b7243c4e54aaa48b5c216907">
+        <swivt:masterPage rdf:resource="&wiki;Aankomen_thuisbasis"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Element_back_link rdf:resource="&wiki;Aankomen_thuisbasis"/>
+        <property:Element_link rdf:resource="&wiki;Centraal_Station_Middelburg"/>
+        <property:Element_link_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depends
+        </property:Element_link_type>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_9b4f201d6b9c12ab4d815db7fd2222e1">
+        <swivt:masterPage rdf:resource="&wiki;Aankomen_thuisbasis"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Element_back_link rdf:resource="&wiki;Aankomen_thuisbasis"/>
+        <property:Element_link_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Connects
+        </property:Element_link_type>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_8e3dfdc472ae0c25b8d9c08e2ec8d62b">
+        <swivt:masterPage rdf:resource="&wiki;Aankomen_thuisbasis"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Element_back_link rdf:resource="&wiki;Aankomen_thuisbasis"/>
+        <property:Element_link_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributes
+        </property:Element_link_type>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <swivt:Subject
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_586ddac700d3e76841613bd87b1ec28c">
+        <swivt:masterPage rdf:resource="&wiki;Aankomen_thuisbasis"/>
+        <swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+        <property:Element_back_link rdf:resource="&wiki;Aankomen_thuisbasis"/>
+        <property:Element_link rdf:resource="&wiki;Centraal_Station_Keulen"/>
+        <property:Element_link_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depends
+        </property:Element_link_type>
+        <swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis
+        </swivt:wikiPageSortKey>
+    </swivt:Subject>
+    <owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate"/>
+    <owl:Class
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Activity"/>
+    <owl:Class
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+    <owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page"/>
+    <owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace"/>
+    <owl:ObjectProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AConcerns"/>
+    <owl:ObjectProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3ADummy_element_link"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AIntentional_Element_type"/>
+    <owl:ObjectProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3ASCitHos_Context"/>
+    <owl:ObjectProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AHas_query"/>
+    <owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AModification_date-23aux"/>
+    <owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey"/>
+    <owl:ObjectProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AHas_subobject"/>
+    <owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#masterPage"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AQuery_depth"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AQuery_format"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AQuery_size"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AQuery_string"/>
+    <owl:ObjectProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AElement_back_link"/>
+    <owl:ObjectProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AElement_link"/>
+    <owl:DatatypeProperty
+            rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AElement_link_type"/>
+    <!-- Created by Semantic MediaWiki, https://www.semantic-mediawiki.org/ -->
+</rdf:RDF>
