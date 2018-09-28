@@ -18,10 +18,7 @@
             </configuration>
         </plugin>
     </plugins>
-<<<<<<< HEAD
     </build>
-=======
->>>>>>> 97e6cdcc351ac7e9a9a9078238c56e4f6be85c6c
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
