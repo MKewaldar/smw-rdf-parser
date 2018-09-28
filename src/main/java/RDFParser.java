@@ -63,7 +63,7 @@ public class RDFParser {
      */
     private void printCurrentParsedFile(Document doc) {
         List<Node> n = doc.selectNodes("/rdf:RDF/swivt:Subject/rdfs:label/..");
-
+//yes
         System.out.println("Currently parsing: " + doc.getName());
         System.out.println();
         for (Node node : n) {
