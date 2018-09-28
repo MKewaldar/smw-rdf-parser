@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:swivt="http://semantic-mediawiki.org/swivt/1.0#" xmlns:wiki="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/" xmlns:category="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3A" xmlns:property="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3A">
+
+	<owl:Ontology>
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T13:42:47+02:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis">
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Activity"/>
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+		<rdfs:label>Aankomen thuisbasis</rdfs:label>
+		<swivt:page rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Aankomen_thuisbasis"/>
+		<rdfs:isDefinedBy rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:RDFExporteren/Aankomen_thuisbasis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Concerns rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin"/>
+		<property:Dummy_element_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg"/>
+		<property:Dummy_element_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen"/>
+		<property:Intentional_Element_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activity</property:Intentional_Element_type>
+		<property:SCitHos_Context rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERY0242cd1fef2f0b2921ebba769c67b1fd"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERY6fc7bcf9374d53a016a71c30d320292b"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERYf938d9250b51c009977ab804590020b4"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERY70d4a4b8586d50313b28c5a4d0521d0a"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERYaec765bcdacab8242b383b387b70b189"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERY2fb1187396ff18c7a82411c9fe3e8386"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERYe27d03d41257ab63e5581b1c2a95bae7"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-07T12:55:36Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458277.0386111</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis</swivt:wikiPageSortKey>
+		<property:Has_subobject rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_30a076e5b7243c4e54aaa48b5c216907"/>
+		<property:Has_subobject rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_9b4f201d6b9c12ab4d815db7fd2222e1"/>
+		<property:Has_subobject rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_8e3dfdc472ae0c25b8d9c08e2ec8d62b"/>
+		<property:Has_subobject rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_586ddac700d3e76841613bd87b1ec28c"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERY0242cd1fef2f0b2921ebba769c67b1fd">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Aankomen thuisbasis]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERY6fc7bcf9374d53a016a71c30d320292b">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Paragraph back link::Aankomen thuisbasis]] [[Paragraph language::Dutch||Dutch-English]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERYf938d9250b51c009977ab804590020b4">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Beeldmateriaal back link::Aankomen thuisbasis]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERY70d4a4b8586d50313b28c5a4d0521d0a">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Model link::Aankomen thuisbasis]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERYaec765bcdacab8242b383b387b70b189">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Aankomen thuisbasis]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERY2fb1187396ff18c7a82411c9fe3e8386">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Categorie:Intentional Element]] [[Part of::Aankomen thuisbasis]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_QUERYe27d03d41257ab63e5581b1c2a95bae7">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Element link::Aankomen thuisbasis]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_30a076e5b7243c4e54aaa48b5c216907">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Element_back_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis"/>
+		<property:Element_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg"/>
+		<property:Element_link_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depends</property:Element_link_type>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_9b4f201d6b9c12ab4d815db7fd2222e1">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Element_back_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis"/>
+		<property:Element_link_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Connects</property:Element_link_type>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_8e3dfdc472ae0c25b8d9c08e2ec8d62b">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Element_back_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis"/>
+		<property:Element_link_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributes</property:Element_link_type>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis-23_586ddac700d3e76841613bd87b1ec28c">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Element_back_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Aankomen_thuisbasis"/>
+		<property:Element_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen"/>
+		<property:Element_link_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depends</property:Element_link_type>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aankomen thuisbasis</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss">
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Intentional_Element"/>
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+		<rdfs:label>Autoweg Mburg-Vliss</rdfs:label>
+		<swivt:page rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Autoweg_Mburg-Vliss"/>
+		<rdfs:isDefinedBy rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:RDFExporteren/Autoweg_Mburg-Vliss"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Dummy_element_contribution_value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">++</property:Dummy_element_contribution_value>
+		<property:Dummy_element_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand"/>
+		<property:Intentional_Element_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condition</property:Intentional_Element_type>
+		<property:SCitHos_Context rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen"/>
+		<property:Transport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personenwagen</property:Transport>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss-23_QUERY0904a7be19a863981c9e5052e90a8d01"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss-23_QUERY692eda7a7c2431b8201876f3dd258f19"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss-23_QUERYcfdcf0bc617ee25ef5929bd2dec59260"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss-23_QUERYdc02de01e11129b76535a79271965489"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss-23_QUERY6ffd9eb5f1ad208f355f73e0bae7b04d"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss-23_QUERY4bb397b8a44cd1a837ecc26583b8bd10"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss-23_QUERYeeda57ce69bcd02296f2938a4b78df50"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T10:49:19Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458380.9509144</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoweg Mburg-Vliss</swivt:wikiPageSortKey>
+		<property:Has_subobject rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss-23_e16edc3ef0d9f8d8f388b40487080d5a"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss-23_QUERY0904a7be19a863981c9e5052e90a8d01">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Categorie:Intentional Element]] [[Part of::Autoweg Mburg-Vliss]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoweg Mburg-Vliss</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss-23_QUERY692eda7a7c2431b8201876f3dd258f19">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Element link::Autoweg Mburg-Vliss]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoweg Mburg-Vliss</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss-23_QUERYcfdcf0bc617ee25ef5929bd2dec59260">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Autoweg Mburg-Vliss]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoweg Mburg-Vliss</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss-23_QUERYdc02de01e11129b76535a79271965489">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Paragraph back link::Autoweg Mburg-Vliss]] [[Paragraph language::Dutch||Dutch-English]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoweg Mburg-Vliss</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss-23_QUERY6ffd9eb5f1ad208f355f73e0bae7b04d">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Beeldmateriaal back link::Autoweg Mburg-Vliss]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoweg Mburg-Vliss</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss-23_QUERY4bb397b8a44cd1a837ecc26583b8bd10">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Model link::Autoweg Mburg-Vliss]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoweg Mburg-Vliss</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss-23_QUERYeeda57ce69bcd02296f2938a4b78df50">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Autoweg Mburg-Vliss]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoweg Mburg-Vliss</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss-23_e16edc3ef0d9f8d8f388b40487080d5a">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Element_back_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss"/>
+		<property:Element_contribution_value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">++</property:Element_contribution_value>
+		<property:Element_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand"/>
+		<property:Element_link_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributes</property:Element_link_type>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoweg Mburg-Vliss</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand">
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Intentional_Element"/>
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+		<rdfs:label>Bankertstrand</rdfs:label>
+		<swivt:page rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Bankertstrand"/>
+		<rdfs:isDefinedBy rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:RDFExporteren/Bankertstrand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Intentional_Element_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condition</property:Intentional_Element_type>
+		<property:SCitHos_Context rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand-23_QUERYafb832dd848936b8d3a0a8d6ede9c4d2"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand-23_QUERYb1f4ff212c70d965ef7417f4cee093ab"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand-23_QUERYca4abbc662ce6f225388df71c3305d9f"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand-23_QUERYc30cde23de1f1e7486e2ea7a406d53a5"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand-23_QUERY958b2ef5b5a1d0279ce1dcfbfea3fe33"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand-23_QUERY25424d26bcd49aa163cc8ae8dfe202c0"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand-23_QUERY578e3c94bedd65795e691d59e4231f9e"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T10:49:37Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458380.9511227</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bankertstrand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand-23_QUERYafb832dd848936b8d3a0a8d6ede9c4d2">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Categorie:Intentional Element]] [[Part of::Bankertstrand]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bankertstrand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand-23_QUERYb1f4ff212c70d965ef7417f4cee093ab">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Element link::Bankertstrand]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bankertstrand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand-23_QUERYca4abbc662ce6f225388df71c3305d9f">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Bankertstrand]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bankertstrand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand-23_QUERYc30cde23de1f1e7486e2ea7a406d53a5">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Paragraph back link::Bankertstrand]] [[Paragraph language::Dutch||Dutch-English]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bankertstrand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand-23_QUERY958b2ef5b5a1d0279ce1dcfbfea3fe33">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Beeldmateriaal back link::Bankertstrand]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bankertstrand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand-23_QUERY25424d26bcd49aa163cc8ae8dfe202c0">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Model link::Bankertstrand]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bankertstrand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand-23_QUERY578e3c94bedd65795e691d59e4231f9e">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Bankertstrand]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bankertstrand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen">
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Intentional_Element"/>
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+		<rdfs:label>Centraal Station Keulen</rdfs:label>
+		<swivt:page rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Centraal_Station_Keulen"/>
+		<rdfs:isDefinedBy rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:RDFExporteren/Centraal_Station_Keulen"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Intentional_Element_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condition</property:Intentional_Element_type>
+		<property:Transport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trein</property:Transport>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen-23_QUERY0801b4c9586510cdf87432408697e429"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen-23_QUERY3e91b441483d734e92ad29e930188f39"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen-23_QUERY9114edf656bdd84be9b94daf922317a9"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen-23_QUERY6eedc077c01d4356c5c8c3f5b9198a45"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen-23_QUERY8d7c5e02ece339c04e03bfa0cd787130"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen-23_QUERY5d0ff1bcbfd2bfb7929fee626eaa802f"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen-23_QUERY28a9cbd6fa5ff99c8cb12f218d064b0d"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-07T12:53:53Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458277.037419</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Keulen</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen-23_QUERY0801b4c9586510cdf87432408697e429">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Centraal Station Keulen]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Keulen</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen-23_QUERY3e91b441483d734e92ad29e930188f39">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Paragraph back link::Centraal Station Keulen]] [[Paragraph language::Dutch||Dutch-English]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Keulen</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen-23_QUERY9114edf656bdd84be9b94daf922317a9">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Beeldmateriaal back link::Centraal Station Keulen]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Keulen</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen-23_QUERY6eedc077c01d4356c5c8c3f5b9198a45">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Model link::Centraal Station Keulen]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Keulen</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen-23_QUERY8d7c5e02ece339c04e03bfa0cd787130">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Centraal Station Keulen]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Keulen</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen-23_QUERY5d0ff1bcbfd2bfb7929fee626eaa802f">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Categorie:Intentional Element]] [[Part of::Centraal Station Keulen]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Keulen</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen-23_QUERY28a9cbd6fa5ff99c8cb12f218d064b0d">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Keulen"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Element link::Centraal Station Keulen]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Keulen</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg">
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Intentional_Element"/>
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+		<rdfs:label>Centraal Station Middelburg</rdfs:label>
+		<swivt:page rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Centraal_Station_Middelburg"/>
+		<rdfs:isDefinedBy rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:RDFExporteren/Centraal_Station_Middelburg"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Intentional_Element_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condition</property:Intentional_Element_type>
+		<property:SCitHos_Context rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Middelburg"/>
+		<property:Transport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trein</property:Transport>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERY3934c3eaf42f6cd7b1a61b1fbf546c6b"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERY0002ed8e07a770cdb14d1ed3e3acbff2"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERY8a92d7f1b725cf66ab15ff3a3efebb2e"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERYb8204a9989ff85048bc5aac61d22c13a"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERY8f3af0f68d856ad765e3a849dc8890a1"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERYebe642030d493f7b423c23a81c660cbc"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERY5f62b65cc3ef3028e426968593f28e7d"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T10:50:32Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458380.9517593</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Middelburg</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERY3934c3eaf42f6cd7b1a61b1fbf546c6b">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Categorie:Intentional Element]] [[Part of::Centraal Station Middelburg]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Middelburg</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERY0002ed8e07a770cdb14d1ed3e3acbff2">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Element link::Centraal Station Middelburg]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Middelburg</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERY8a92d7f1b725cf66ab15ff3a3efebb2e">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Centraal Station Middelburg]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Middelburg</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERYb8204a9989ff85048bc5aac61d22c13a">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Paragraph back link::Centraal Station Middelburg]] [[Paragraph language::Dutch||Dutch-English]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Middelburg</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERY8f3af0f68d856ad765e3a849dc8890a1">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Beeldmateriaal back link::Centraal Station Middelburg]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Middelburg</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERYebe642030d493f7b423c23a81c660cbc">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Model link::Centraal Station Middelburg]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Middelburg</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg-23_QUERY5f62b65cc3ef3028e426968593f28e7d">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Centraal Station Middelburg]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centraal Station Middelburg</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot">
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Intentional_Element"/>
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+		<rdfs:label>CO2-uitstoot</rdfs:label>
+		<swivt:page rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/CO2-uitstoot"/>
+		<rdfs:isDefinedBy rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:RDFExporteren/CO2-uitstoot"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Intentional_Element_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Outcome</property:Intentional_Element_type>
+		<property:SCitHos_Context rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Middelburg"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot-23_QUERY4a74fe9a2ec9d134dafe63fec2afc629"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot-23_QUERY3e8c8a5a33cab6bca0963fc90953b68a"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot-23_QUERY028fa1f72e95160f75dadbeed00ab210"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot-23_QUERYd9a69e0190b5072610fdc8a05c50f6ff"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot-23_QUERYe056632c0d6c6d5a74f7026506994a22"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot-23_QUERY5d719d7f841ca7d2279fbfec6522a060"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot-23_QUERY548ab085ef6bc5d1715e40eeaa2ebcf7"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T11:32:40Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458380.9810185</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO2-uitstoot</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot-23_QUERY4a74fe9a2ec9d134dafe63fec2afc629">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:CO2-uitstoot]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO2-uitstoot</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot-23_QUERY3e8c8a5a33cab6bca0963fc90953b68a">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Paragraph back link::CO2-uitstoot]] [[Paragraph language::Dutch||Dutch-English]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO2-uitstoot</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot-23_QUERY028fa1f72e95160f75dadbeed00ab210">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Beeldmateriaal back link::CO2-uitstoot]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO2-uitstoot</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot-23_QUERYd9a69e0190b5072610fdc8a05c50f6ff">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Model link::CO2-uitstoot]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO2-uitstoot</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot-23_QUERYe056632c0d6c6d5a74f7026506994a22">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:CO2-uitstoot]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO2-uitstoot</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot-23_QUERY5d719d7f841ca7d2279fbfec6522a060">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Categorie:Intentional Element]] [[Part of::CO2-uitstoot]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO2-uitstoot</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot-23_QUERY548ab085ef6bc5d1715e40eeaa2ebcf7">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Element link::CO2-uitstoot]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO2-uitstoot</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin">
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Persona"/>
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+		<rdfs:label>Duits Gezin</rdfs:label>
+		<swivt:page rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Duits_Gezin"/>
+		<rdfs:isDefinedBy rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:RDFExporteren/Duits_Gezin"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een familie met jongvolwassen ouders en drie kleine kinderen.</property:Description>
+		<property:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Familie von Munster</property:Name>
+		<property:SCitHos_Context rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Middelburg"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin-23_QUERY826f97aca58350f403573939710d61cd"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin-23_QUERY31297b6a84d059ba4c7f7e0cf0a17413"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin-23_QUERYaa006512572ed6297650f6f4a8842b77"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin-23_QUERYd07549f9e109a028989fdd84c8695e11"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin-23_QUERYf8cd4c52364654a8d4a5e0daaefa1438"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin-23_QUERY79b34fb64ec0b881992ca9ef2aef677f"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin-23_QUERYc862ef9bd72f826a82d5ad9743890eb8"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-07T10:27:08Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458276.9355093</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duits Gezin</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin-23_QUERY826f97aca58350f403573939710d61cd">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Duits Gezin]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duits Gezin</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin-23_QUERY31297b6a84d059ba4c7f7e0cf0a17413">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Paragraph back link::Duits Gezin]] [[Paragraph language::Dutch||Dutch-English]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duits Gezin</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin-23_QUERYaa006512572ed6297650f6f4a8842b77">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Beeldmateriaal back link::Duits Gezin]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duits Gezin</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin-23_QUERYd07549f9e109a028989fdd84c8695e11">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Categorie:Intentional Element]] [[Part of::Duits Gezin]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duits Gezin</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin-23_QUERYf8cd4c52364654a8d4a5e0daaefa1438">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Element link::Duits Gezin]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duits Gezin</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin-23_QUERY79b34fb64ec0b881992ca9ef2aef677f">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Model link::Duits Gezin]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duits Gezin</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin-23_QUERYc862ef9bd72f826a82d5ad9743890eb8">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Duits Gezin]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duits Gezin</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand">
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Activity"/>
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+		<rdfs:label>Ga naar het strand</rdfs:label>
+		<swivt:page rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Ga_naar_het_strand"/>
+		<rdfs:isDefinedBy rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:RDFExporteren/Ga_naar_het_strand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Dummy_element_contribution_value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">++</property:Dummy_element_contribution_value>
+		<property:Dummy_element_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss"/>
+		<property:Dummy_element_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss"/>
+		<property:Dummy_element_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot"/>
+		<property:Intentional_Element_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activity</property:Intentional_Element_type>
+		<property:SCitHos_Context rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_QUERY2a5f113a54acc749dc47d466c127262c"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_QUERY625a5d47ac8c47135b2896819fd99550"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_QUERY1ff2d1cebb761636f7ba4367b1859623"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_QUERYcebc4861fe3265f0a924e42bb0239e79"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_QUERY1b50caa7106a2913e50d8a0b57f9a4bf"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_QUERY85b14192b87587e7f0fddda2f29b5d74"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_QUERYafde2b45244ef1e321717704ae9b5cfa"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T11:33:50Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458380.9818287</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ga naar het strand</swivt:wikiPageSortKey>
+		<property:Has_subobject rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_b6cdc3544426fabaffdf24138dac7e13"/>
+		<property:Has_subobject rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_e036e4d39d986bbb5d21075b489224c2"/>
+		<property:Has_subobject rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_1e484e55a82a38225f99be48f4b6454d"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_QUERY2a5f113a54acc749dc47d466c127262c">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Categorie:Intentional Element]] [[Part of::Ga naar het strand]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ga naar het strand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_QUERY625a5d47ac8c47135b2896819fd99550">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Element link::Ga naar het strand]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ga naar het strand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_QUERY1ff2d1cebb761636f7ba4367b1859623">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Ga naar het strand]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ga naar het strand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_QUERYcebc4861fe3265f0a924e42bb0239e79">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Paragraph back link::Ga naar het strand]] [[Paragraph language::Dutch||Dutch-English]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ga naar het strand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_QUERY1b50caa7106a2913e50d8a0b57f9a4bf">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Beeldmateriaal back link::Ga naar het strand]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ga naar het strand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_QUERY85b14192b87587e7f0fddda2f29b5d74">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Model link::Ga naar het strand]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ga naar het strand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_QUERYafde2b45244ef1e321717704ae9b5cfa">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Ga naar het strand]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ga naar het strand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_b6cdc3544426fabaffdf24138dac7e13">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Element_back_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand"/>
+		<property:Element_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Autoweg_Mburg-2DVliss"/>
+		<property:Element_link_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depends</property:Element_link_type>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ga naar het strand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_e036e4d39d986bbb5d21075b489224c2">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Element_back_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand"/>
+		<property:Element_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss"/>
+		<property:Element_link_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depends</property:Element_link_type>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ga naar het strand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand-23_1e484e55a82a38225f99be48f4b6454d">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Element_back_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Ga_naar_het_strand"/>
+		<property:Element_contribution_value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">++</property:Element_contribution_value>
+		<property:Element_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/CO2-2Duitstoot"/>
+		<property:Element_link_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributes</property:Element_link_type>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ga naar het strand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss">
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Intentional_Element"/>
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+		<rdfs:label>Looppad Mburg-Vliss</rdfs:label>
+		<swivt:page rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Looppad_Mburg-Vliss"/>
+		<rdfs:isDefinedBy rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:RDFExporteren/Looppad_Mburg-Vliss"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Dummy_element_contribution_value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">--</property:Dummy_element_contribution_value>
+		<property:Dummy_element_contribution_value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">+/-</property:Dummy_element_contribution_value>
+		<property:Dummy_element_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand"/>
+		<property:Dummy_element_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand"/>
+		<property:Intentional_Element_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condition</property:Intentional_Element_type>
+		<property:SCitHos_Context rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen"/>
+		<property:Transport rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Voet</property:Transport>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_QUERY6a633492b5faabbdd549392c7467a89a"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_QUERYc278391484a1a6932a24c7e8365a9b2a"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_QUERYf2f2ebfa7fa4c45283182720791a2dd7"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_QUERY53457bfabff3c333a0719cf6d47caada"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_QUERYf388943e02a57d40ecb85e85d6f479c3"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_QUERY151982c16b405364e04136ee8a0550de"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_QUERYf0fa25c54aad7f5ba3db4ed2abf5af9f"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T10:48:45Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458380.9505208</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Looppad Mburg-Vliss</swivt:wikiPageSortKey>
+		<property:Has_subobject rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_a3b82426b4dc9a6e66da9e2fdbc828db"/>
+		<property:Has_subobject rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_e3fa818bf120e8f659a72dbc2990f7e7"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_QUERY6a633492b5faabbdd549392c7467a89a">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Categorie:Intentional Element]] [[Part of::Looppad Mburg-Vliss]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Looppad Mburg-Vliss</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_QUERYc278391484a1a6932a24c7e8365a9b2a">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Element link::Looppad Mburg-Vliss]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Looppad Mburg-Vliss</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_QUERYf2f2ebfa7fa4c45283182720791a2dd7">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Looppad Mburg-Vliss]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Looppad Mburg-Vliss</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_QUERY53457bfabff3c333a0719cf6d47caada">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Paragraph back link::Looppad Mburg-Vliss]] [[Paragraph language::Dutch||Dutch-English]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Looppad Mburg-Vliss</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_QUERYf388943e02a57d40ecb85e85d6f479c3">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Beeldmateriaal back link::Looppad Mburg-Vliss]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Looppad Mburg-Vliss</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_QUERY151982c16b405364e04136ee8a0550de">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Model link::Looppad Mburg-Vliss]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Looppad Mburg-Vliss</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_QUERYf0fa25c54aad7f5ba3db4ed2abf5af9f">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Looppad Mburg-Vliss]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Looppad Mburg-Vliss</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_a3b82426b4dc9a6e66da9e2fdbc828db">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Element_back_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss"/>
+		<property:Element_contribution_value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">--</property:Element_contribution_value>
+		<property:Element_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Bankertstrand"/>
+		<property:Element_link_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributes</property:Element_link_type>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Looppad Mburg-Vliss</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss-23_e3fa818bf120e8f659a72dbc2990f7e7">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Element_back_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Looppad_Mburg-2DVliss"/>
+		<property:Element_contribution_value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">+/-</property:Element_contribution_value>
+		<property:Element_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand"/>
+		<property:Element_link_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributes</property:Element_link_type>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Looppad Mburg-Vliss</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand">
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Intentional_Element"/>
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+		<rdfs:label>Nollestrand</rdfs:label>
+		<swivt:page rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Nollestrand"/>
+		<rdfs:isDefinedBy rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:RDFExporteren/Nollestrand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Intentional_Element_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condition</property:Intentional_Element_type>
+		<property:SCitHos_Context rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand-23_QUERYb97757a26bd8b0c2d0a0cb5d9e59b5ea"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand-23_QUERY822d4978ee0ffacb71ae008bc146c290"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand-23_QUERYf1c3aef888b13b6173b67ab848c3a905"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand-23_QUERYa6818fbfaeee4dd6e679dd3c5698b1bb"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand-23_QUERY6e2617b87855e83b5ad04dcfbbf1df1e"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand-23_QUERYef5330253b97719eb40a6a4e441e670b"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand-23_QUERY1b8a13105e15852fce664143ec66727d"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T10:51:06Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458380.9521528</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nollestrand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand-23_QUERYb97757a26bd8b0c2d0a0cb5d9e59b5ea">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Categorie:Intentional Element]] [[Part of::Nollestrand]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nollestrand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand-23_QUERY822d4978ee0ffacb71ae008bc146c290">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Element link::Nollestrand]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nollestrand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand-23_QUERYf1c3aef888b13b6173b67ab848c3a905">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Nollestrand]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nollestrand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand-23_QUERYa6818fbfaeee4dd6e679dd3c5698b1bb">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Paragraph back link::Nollestrand]] [[Paragraph language::Dutch||Dutch-English]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nollestrand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand-23_QUERY6e2617b87855e83b5ad04dcfbbf1df1e">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Beeldmateriaal back link::Nollestrand]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nollestrand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand-23_QUERYef5330253b97719eb40a6a4e441e670b">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Model link::Nollestrand]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nollestrand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand-23_QUERY1b8a13105e15852fce664143ec66727d">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Nollestrand"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Nollestrand]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nollestrand</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis">
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Activity"/>
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+		<rdfs:label>Reis naar huis</rdfs:label>
+		<swivt:page rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Reis_naar_huis"/>
+		<rdfs:isDefinedBy rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:RDFExporteren/Reis_naar_huis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Dummy_element_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg"/>
+		<property:Intentional_Element_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activity</property:Intentional_Element_type>
+		<property:SCitHos_Context rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Duits_Gezin"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis-23_QUERYdf4722d5266f6b5a9b8c6003580d2986"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis-23_QUERY0422b1bb46f9eca7a33d85275d79b3f9"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis-23_QUERYedc5eab4525cf9d5937365761231fe6e"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis-23_QUERYee2d6c18fc3b0531d146d26c43dfd3ce"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis-23_QUERYe3da64a5b3e234f7f2e1a04376c8775d"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis-23_QUERY7b4945dab87dd5f106d3cc253b399f31"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis-23_QUERYbb4a1f04d8dd3242e1f95ff2b10e3f8f"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-07T13:09:25Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458277.048206</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reis naar huis</swivt:wikiPageSortKey>
+		<property:Has_subobject rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis-23_09276ddb3a3b38dbc1778fae430f91fe"/>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis-23_QUERYdf4722d5266f6b5a9b8c6003580d2986">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Reis naar huis]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reis naar huis</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis-23_QUERY0422b1bb46f9eca7a33d85275d79b3f9">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Paragraph back link::Reis naar huis]] [[Paragraph language::Dutch||Dutch-English]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reis naar huis</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis-23_QUERYedc5eab4525cf9d5937365761231fe6e">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Beeldmateriaal back link::Reis naar huis]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reis naar huis</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis-23_QUERYee2d6c18fc3b0531d146d26c43dfd3ce">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Model link::Reis naar huis]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reis naar huis</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis-23_QUERYe3da64a5b3e234f7f2e1a04376c8775d">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:Reis naar huis]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reis naar huis</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis-23_QUERY7b4945dab87dd5f106d3cc253b399f31">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Categorie:Intentional Element]] [[Part of::Reis naar huis]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reis naar huis</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis-23_QUERYbb4a1f04d8dd3242e1f95ff2b10e3f8f">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Element link::Reis naar huis]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reis naar huis</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis-23_09276ddb3a3b38dbc1778fae430f91fe">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Element_back_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Reis_naar_huis"/>
+		<property:Element_link rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Centraal_Station_Middelburg"/>
+		<property:Element_link_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depends</property:Element_link_type>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reis naar huis</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Middelburg">
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Context"/>
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+		<rdfs:label>SCitHos Area Middelburg</rdfs:label>
+		<swivt:page rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/SCitHos_Area_Middelburg"/>
+		<rdfs:isDefinedBy rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:RDFExporteren/SCitHos_Area_Middelburg"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Representeert de stad Middelburg met betrekking tot het SCitHos project.</property:Description>
+		<property:Heading_en rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCitHos Area Middelburg</property:Heading_en>
+		<property:Heading_nl rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCitHos Area Middelburg</property:Heading_nl>
+		<property:SCitHos_Context_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Area</property:SCitHos_Context_type>
+		<property:Semantic_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCitHos Area Middelburg</property:Semantic_title>
+		<property:Supercontext rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Toeristenstroom_Walcheren_Case_0001"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Middelburg-23_QUERYd7a8b32617f19de96950fe7981878165"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Middelburg-23_QUERYed093f16d5f127e945ca42ab2001ea40"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Middelburg-23_QUERY0d9fc733d554bbb199a91a63abd12535"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Middelburg-23_QUERY04b7f1ceeb0a69d86c49c0b447aecade"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Middelburg-23_QUERY1992c0cf8d56866febdf1ad998f47a2a"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T09:08:05Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458375.8806134</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCitHos Area Middelburg</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Middelburg-23_QUERYd7a8b32617f19de96950fe7981878165">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Middelburg"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:SCitHos Area Middelburg]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCitHos Area Middelburg</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Middelburg-23_QUERYed093f16d5f127e945ca42ab2001ea40">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Middelburg"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Paragraph back link::SCitHos Area Middelburg]] [[Paragraph language::Dutch||Dutch-English]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCitHos Area Middelburg</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Middelburg-23_QUERY0d9fc733d554bbb199a91a63abd12535">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Middelburg"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Beeldmateriaal back link::SCitHos Area Middelburg]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCitHos Area Middelburg</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Middelburg-23_QUERY04b7f1ceeb0a69d86c49c0b447aecade">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Middelburg"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Model link::SCitHos Area Middelburg]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCitHos Area Middelburg</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Middelburg-23_QUERY1992c0cf8d56866febdf1ad998f47a2a">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Middelburg"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:SCitHos Area Middelburg]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCitHos Area Middelburg</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen">
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Context"/>
+		<rdf:type rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+		<rdfs:label>SCitHos Area Vlissingen</rdfs:label>
+		<swivt:page rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/SCitHos_Area_Vlissingen"/>
+		<rdfs:isDefinedBy rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:RDFExporteren/SCitHos_Area_Vlissingen"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Representeert de stad Vlissingen met betrekking tot het SCitHos project.</property:Description>
+		<property:Heading_en rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCitHos Area Vlissingen</property:Heading_en>
+		<property:Heading_nl rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCitHos Area Vlissingen</property:Heading_nl>
+		<property:SCitHos_Context_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Area</property:SCitHos_Context_type>
+		<property:Semantic_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCitHos Area Vlissingen</property:Semantic_title>
+		<property:Supercontext rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Toeristenstroom_Walcheren_Case_0001"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen-23_QUERYa3739280b725d24f8088cbe1f8bf0024"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen-23_QUERY294ef183002910ff74a621368a7067e2"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen-23_QUERYe987ae6fa1f4d93afe5a2d4544b72f48"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen-23_QUERY564941fa5301e5a45206cc584babffca"/>
+		<property:Has_query rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen-23_QUERY613e191f958a4e59a7714b5c81f2dbff"/>
+		<swivt:wikiPageModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T09:10:11Z</swivt:wikiPageModificationDate>
+		<property:Modification_date-23aux rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2458375.8820718</property:Modification_date-23aux>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCitHos Area Vlissingen</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen-23_QUERYa3739280b725d24f8088cbe1f8bf0024">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:SCitHos Area Vlissingen]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCitHos Area Vlissingen</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen-23_QUERY294ef183002910ff74a621368a7067e2">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Paragraph back link::SCitHos Area Vlissingen]] [[Paragraph language::Dutch||Dutch-English]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCitHos Area Vlissingen</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen-23_QUERYe987ae6fa1f4d93afe5a2d4544b72f48">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Beeldmateriaal back link::SCitHos Area Vlissingen]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCitHos Area Vlissingen</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen-23_QUERY564941fa5301e5a45206cc584babffca">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[Model link::SCitHos Area Vlissingen]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCitHos Area Vlissingen</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen-23_QUERY613e191f958a4e59a7714b5c81f2dbff">
+		<swivt:masterPage rdf:resource="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/SCitHos_Area_Vlissingen"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:Query_depth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0</property:Query_depth>
+		<property:Query_format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">list</property:Query_format>
+		<property:Query_size rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1</property:Query_size>
+		<property:Query_string rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[:SCitHos Area Vlissingen]]</property:Query_string>
+		<swivt:wikiPageSortKey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCitHos Area Vlissingen</swivt:wikiPageSortKey>
+	</swivt:Subject>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#creationDate"/>
+	<owl:Class rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Activity"/>
+	<owl:Class rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Scenario_I"/>
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#page"/>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiNamespace"/>
+	<owl:ObjectProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AConcerns"/>
+	<owl:ObjectProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3ADummy_element_link"/>
+	<owl:DatatypeProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AIntentional_Element_type"/>
+	<owl:ObjectProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3ASCitHos_Context"/>
+	<owl:ObjectProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AHas_query"/>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate"/>
+	<owl:DatatypeProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AModification_date-23aux"/>
+	<owl:DatatypeProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#wikiPageSortKey"/>
+	<owl:ObjectProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AHas_subobject"/>
+	<owl:ObjectProperty rdf:about="http://semantic-mediawiki.org/swivt/1.0#masterPage"/>
+	<owl:DatatypeProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AQuery_depth"/>
+	<owl:DatatypeProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AQuery_format"/>
+	<owl:DatatypeProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AQuery_size"/>
+	<owl:DatatypeProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AQuery_string"/>
+	<owl:ObjectProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AElement_back_link"/>
+	<owl:ObjectProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AElement_link"/>
+	<owl:DatatypeProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AElement_link_type"/>
+	<owl:Class rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Intentional_Element"/>
+	<owl:DatatypeProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3ADummy_element_contribution_value"/>
+	<owl:DatatypeProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3ATransport"/>
+	<owl:DatatypeProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AElement_contribution_value"/>
+	<owl:Class rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Persona"/>
+	<owl:DatatypeProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3ADescription"/>
+	<owl:DatatypeProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AName"/>
+	<owl:Class rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Category-3ASCitHos_Context"/>
+	<owl:DatatypeProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AHeading_en"/>
+	<owl:DatatypeProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3AHeading_nl"/>
+	<owl:DatatypeProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3ASCitHos_Context_type"/>
+	<owl:DatatypeProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3ASemantic_title"/>
+	<owl:ObjectProperty rdf:about="http://195.93.238.56/wiki/portfoliotest/wiki/index.php/Speciaal:URIResolver/Property-3ASupercontext"/>
+	<!-- Created by Semantic MediaWiki, https://www.semantic-mediawiki.org/ -->
+</rdf:RDF>

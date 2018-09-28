@@ -94,7 +94,7 @@ public class RDFParser {
 
     private void printLabelStringValue(Node node) {
         if (node.selectSingleNode("rdfs:label") != null)
-            System.out.println("Name: " + StringFormatter.replaceSpaceWithLowercase(node.selectSingleNode("rdfs:label").getStringValue()));
+            System.out.println("Name: " + getLabelStringValue(node));
     }
 
     private String getContextStringValue(Node node) {
@@ -106,8 +106,7 @@ public class RDFParser {
 
     private void printContextStringValue(Node node) {
         if (node.selectSingleNode("property:SCitHos_Context/@rdf:resource") != null) {
-            System.out.println("Context: " + StringFormatter.retrieveFinalArtifactFromURI(node.selectSingleNode
-                    ("property:SCitHos_Context/@rdf:resource").getStringValue()));
+            System.out.println("Context: " + getContextStringValue(node));
         }
     }
 
@@ -119,7 +118,7 @@ public class RDFParser {
 
     private void printTransportStringValue(Node node) {
         if (node.selectSingleNode("property:Transport") != null) {
-            System.out.println("Transport: " + node.selectSingleNode("property:Transport").getStringValue());
+            System.out.println("Transport: " + getTransportStringValue(node));
         }
     }
 
@@ -132,7 +131,7 @@ public class RDFParser {
     private void printIntentionalElementStringValue(Node node) {
         if (node.selectSingleNode("property:Intentional_Element_type") != null) {
             System.out.println("Intentional Element Type: "
-                    + node.selectSingleNode("property:Intentional_Element_type").getStringValue().trim());
+                    + getIntentionalElementStringValue(node));
         }
     }
 
@@ -143,10 +142,10 @@ public class RDFParser {
      * @return HashMap with the required information
      */
     private HashMap<String, String> getContributesToRelationships(Node node) {
-        if (node.selectSingleNode("child::*[contains(name(), \"Dummy\")]/attribute::rdf:resource") != null &&
-                node.selectSingleNode("child::*[contains(name(), \"property:Dummy_element_cont\")]") != null) {
+//        if (node.selectSingleNode("child::*[contains(name(), \"Element_link\")]/attribute::rdf:resource") != null &&
+//                node.selectSingleNode("child::*[contains(name(), \"property:Dummy_element_cont\")]") != null) {
             //Initialize two lists: one for the key (entity that is contributed to) and for the value (in what manner it is contributed to)
-            List<Node> contNodeNameList = new ArrayList<>(node.selectNodes("child::*[contains(name(), \"Dummy\")]/attribute::rdf:resource"));
+            List<Node> contNodeNameList = new ArrayList<>(node.selectNodes("parent::*[contains(name(), \"property:Element_link\")]"));
             List<Node> contNodeValueList = new ArrayList<>(node.selectNodes("child::*[contains(name(), \"property:Dummy_element_cont\")]"));
             HashMap<String, String> map = new HashMap<>();
             for (int i = 0; i < contNodeNameList.size(); ) {
@@ -154,17 +153,15 @@ public class RDFParser {
                 i++;
             }
             return map;
-        } else return null;
     }
 
     private void printContributesToRelationships(Node node) {
-        if (node.selectSingleNode("child::*[contains(name(), \"Dummy\")]/attribute::rdf:resource") != null &&
-                node.selectSingleNode("child::*[contains(name(), \"property:Dummy_element_cont\")]") != null) {
+        /*if (node.selectSingleNode("child::*[contains(name(), \"Element_link\")]/attribute::rdf:resource") != null &&
+                node.selectSingleNode("child::*[contains(name(), \"property:Dummy_element_cont\")]") != null) {*/
             for (String key : Objects.requireNonNull(getContributesToRelationships(node)).keySet()) {
                 System.out.println("Contributes to: " + key + "(" + Objects.requireNonNull(getContributesToRelationships(node)).get(key) + ")");
             }
         }
-    }
 
     private String getDependsOnRelationships(Node node) {
         if (node.selectSingleNode("/rdf:RDF/swivt:Subject/property:Element_link/@rdf:resource") != null) {
