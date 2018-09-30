@@ -128,7 +128,7 @@ public class RDFParser {
     public String getContextTypeValue(Node node) {
         if (node.selectSingleNode("property:SCitHos_Context_type") != null) {
             return node.selectSingleNode("property:SCitHos_Context_type").getStringValue();
-        } else return null;
+        } else return " ";
     }
 
     public void printContextTypeValue(Node node) {

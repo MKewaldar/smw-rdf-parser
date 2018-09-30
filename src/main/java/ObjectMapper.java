@@ -1,5 +1,4 @@
-import domain.Context;
-import domain.Resource;
+import domain.*;
 import org.dom4j.Node;
 
 import java.util.ArrayList;
@@ -11,17 +10,58 @@ import java.util.ArrayList;
  */
 public class ObjectMapper {
     private RDFParser parser;
+    private ArrayList<Area> areaList;
     private ArrayList<Resource> resourceList;
+    private ArrayList<Persona> personaList;
+    private ArrayList<Belief> beliefList;
+    private ArrayList<Attraction> attractionList;
+    private ArrayList<Goal> goalList;
+    private ArrayList<Outcome> outcomeList;
+
 
     public ObjectMapper() {
         parser = new RDFParser();
+        areaList = new ArrayList<>();
+        personaList = new ArrayList<>();
         resourceList = new ArrayList<>();
+        beliefList = new ArrayList<>();
+        attractionList = new ArrayList<>();
+        goalList = new ArrayList<>();
+        outcomeList = new ArrayList<>();
     }
 
     public static void main(String[] args) {
         ObjectMapper map = new ObjectMapper();
+        map.mapContext();
         map.mapResource();
+        map.mapBelief();
+        map.mapAttraction();
+        map.mapGoal();
+        map.mapOutcome();
         System.out.println(map.getResourceList());
+    }
+
+    public void mapContext() {
+        for (Node n : parser.getNodeList()) {
+            if (n.hasContent()) {
+                // check if the IE field says 'Context'
+                if (parser.getContextTypeValue(n).contains("Area")) {
+                    Area a = new Area();
+                    a.setName(parser.getLabelStringValue(n));
+                    a.setContextType("Area");
+                    areaList.add(a);
+                } else if (parser.getContextTypeValue(n).contains("Role")) {
+                    Persona c = new Persona();
+                    c.setName(parser.getLabelStringValue(n));
+                    c.setContextType("Role");
+                    Context cc = new Context();
+                    cc.setContextType("Area");
+                    cc.setName(parser.getContextStringValue(n));
+                    c.setContext(cc);
+                    personaList.add(c);
+                }
+            }
+        }
     }
 
     public void mapResource() {
@@ -32,15 +72,103 @@ public class ObjectMapper {
                     //separately map every attribute to a new object, and do this for every object respectively
                     Resource r = new Resource();
                     r.setName(parser.getLabelStringValue(n));
-                    Context c = new Context();
-                    c.setName(parser.getContextStringValue(n));
-                    c.setContextType("Context");
-                    r.setContext(c);
+                    // check the areaList to assign the correct Context to the Resource
+                    for (Area a : areaList) {
+                        if (a.getName().equals(parser.getContextStringValue(n))) {
+                            r.setContext(a);
+                        }
+                    }
                     if (parser.getTransportStringValue(n) != null) {
                         r.setTransport(parser.getTransportStringValue(n));
                     } else r.setTransport("N/A");
                     r.setElementType("Resource");
                     resourceList.add(r);
+                }
+            }
+        }
+    }
+
+
+    public void mapBelief() {
+        for (Node n : parser.getNodeList()) {
+            if (n.hasContent()) {
+                // check if the IE field says 'Condition'
+                if (parser.getIntentionalElementStringValue(n).contains("Belief")) {
+                    Belief b = new Belief();
+                    b.setName(parser.getLabelStringValue(n));
+                    for (Persona p : personaList) {
+                        if (p.getName().equals(parser.getContextStringValue(n))) {
+                            b.setContext(p);
+                        }
+                    }
+                    if (parser.getTransportStringValue(n) != null) {
+                        b.setTransport(parser.getTransportStringValue(n));
+                    } else b.setTransport("N/A");
+                    b.setElementType("Belief");
+                    beliefList.add(b);
+                }
+            }
+        }
+    }
+
+    public void mapAttraction() {
+        for (Node n : parser.getNodeList()) {
+            if (n.hasContent()) {
+                if (parser.getIntentionalElementStringValue(n).contains("Activity")) {
+                    Attraction a = new Attraction();
+                    a.setName(parser.getLabelStringValue(n));
+                    for (Persona p : personaList) {
+                        if (p.getName().equals(parser.getContextStringValue(n))) {
+                            a.setContext(p);
+                        }
+                    }
+                    if (parser.getTransportStringValue(n) != null) {
+                        a.setTransport(parser.getTransportStringValue(n));
+                    } else a.setTransport("N/A");
+                    a.setElementType("Attraction");
+                    attractionList.add(a);
+                }
+            }
+        }
+    }
+
+    public void mapGoal() {
+        for (Node n : parser.getNodeList()) {
+            if (n.hasContent()) {
+                if (parser.getIntentionalElementStringValue(n).contains("Goal")) {
+                    Goal g = new Goal();
+                    g.setName(parser.getLabelStringValue(n));
+                    for (Persona p : personaList) {
+                        if (p.getName().equals(parser.getContextStringValue(n))) {
+                            g.setContext(p);
+                        }
+                    }
+                    if (parser.getTransportStringValue(n) != null) {
+                        g.setTransport(parser.getTransportStringValue(n));
+                    } else g.setTransport("N/A");
+                    g.setElementType("Goal");
+                    goalList.add(g);
+                }
+            }
+        }
+    }
+
+    public void mapOutcome() {
+        for (Node n : parser.getNodeList()) {
+            if (n.hasContent()) {
+                if (parser.getIntentionalElementStringValue(n).contains("Outcome")) {
+                    Outcome o = new Outcome();
+                    o.setName(parser.getLabelStringValue(n));
+                    for (Area a : areaList) {
+                        if (a.getName().equals(parser.getContextStringValue(n))) {
+                            o.setContext(a);
+                        }
+                    }
+                    if (parser.getTransportStringValue(n) != null) {
+                        o.setTransport(parser.getTransportStringValue(n));
+                    } else o.setTransport("N/A");
+                    o.setElementType("Outcome");
+                    outcomeList.add(o);
                 }
             }
         }
