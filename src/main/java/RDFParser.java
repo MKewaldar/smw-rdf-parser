@@ -20,18 +20,21 @@ import java.util.Objects;
 
 public class RDFParser {
 
-
-    private List<Node> nodeList;
     private Document docToBeParsed;
+    private List<Node> nodeList;
+
 
     public RDFParser() {
-        File file = new File("input/all.xml");
-        docToBeParsed = parse(file);
-        nodeList = docToBeParsed.selectNodes("/rdf:RDF/swivt:Subject/rdfs:label/..");
+        initGUI();
     }
 
     public static void main(String[] args) {
         RDFParser parser = new RDFParser();
+        parser.initGUI();
+
+    }
+
+    public void initGUI() {
         // initialize GUI
         File workingDirectory = new File(System.getProperty("user.dir"));
         JFileChooser jfc = new JFileChooser(workingDirectory);
@@ -45,7 +48,9 @@ public class RDFParser {
 
         if (returnValue == JFileChooser.APPROVE_OPTION) {
             File selectedFile = jfc.getSelectedFile();
-            parser.printCurrentParsedFile(parser.parse(selectedFile));
+            docToBeParsed = parse(selectedFile);
+            nodeList = parse(selectedFile).selectNodes("/rdf:RDF/swivt:Subject/rdfs:label/..");
+            printCurrentParsedFile(parse(selectedFile));
         }
     }
 
@@ -73,10 +78,9 @@ public class RDFParser {
      * @param doc Document to be parsed
      */
     public void printCurrentParsedFile(Document doc) {
-        List<Node> n = doc.selectNodes("/rdf:RDF/swivt:Subject/rdfs:label/..");
-        System.out.println("Currently parsing: " + doc.getName());
+        System.out.println("Currently parsing: " + getDocToBeParsed().getName());
         System.out.println();
-        for (Node node : n) {
+        for (Node node : getNodeList()) {
             if (node.hasContent()) {
                 //Label or name
                 printLabelStringValue(node);
@@ -146,9 +150,9 @@ public class RDFParser {
     }
 
     public String getIntentionalElementStringValue(Node node) {
-        if (node.selectSingleNode("property:Intentional_Element_type").getStringValue() != null) {
+        if (node.selectSingleNode("property:Intentional_Element_type") != null) {
             return node.selectSingleNode("property:Intentional_Element_type").getStringValue().trim();
-        } else return null;
+        } else return " ";
     }
 
     public void printIntentionalElementStringValue(Node node) {
