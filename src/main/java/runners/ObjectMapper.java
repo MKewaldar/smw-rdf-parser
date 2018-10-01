@@ -1,6 +1,7 @@
 package runners;
 
-import domain.*;
+import com.anylogic.engine.Point;
+import emont_casus.*;
 import org.dom4j.Node;
 
 import java.util.ArrayList;
@@ -15,10 +16,12 @@ public class ObjectMapper {
     private ArrayList<Area> areaList;
     private ArrayList<Resource> resourceList;
     private ArrayList<Persona> personaList;
-    private ArrayList<Belief> beliefList;
+    private ArrayList<Intentional_Element> beliefList;
     private ArrayList<Attraction> attractionList;
-    private ArrayList<Goal> goalList;
-    private ArrayList<Outcome> outcomeList;
+    private ArrayList<Intentional_Element> goalList;
+    private ArrayList<Intentional_Element> outcomeList;
+    private Main main;
+
 
 
     public ObjectMapper() {
@@ -37,18 +40,30 @@ public class ObjectMapper {
         mapGoal();
         mapOutcome();
         System.out.println(getResourceList());
+//        getAreaList().get(0).setLatLon(51.499123, 3.613360);
+//        getAreaList().get(1).setLatLon(51.455316, 3.585747);
+        getAreaList().get(0).set_latitude(51.499123);
+        getAreaList().get(0).set_longitude(3.613360);
+        getAreaList().get(1).set_latitude(51.455316);
+        getAreaList().get(1).set_longitude(3.585747);
 
+
+    }
+
+    public Main._areaList_Population initAreaList(Main._areaList_Population areaList, Main main) {
+        for (Area a : getAreaList()) {
+            main.add_areaList(a.name, a.context, a.latitude, a.longitude);
+        }
+        for (Area a : main.areaList) {
+            Point p = new Point();
+            p.setLatLon(a.latitude, a.longitude);
+            a.setLocation(p);
+        }
+        return areaList;
     }
 
     public static void main(String[] args) {
         ObjectMapper map = new ObjectMapper();
-        map.mapContext();
-        map.mapResource();
-        map.mapBelief();
-        map.mapAttraction();
-        map.mapGoal();
-        map.mapOutcome();
-        System.out.println(map.getResourceList());
     }
 
     public void mapContext() {
@@ -57,17 +72,14 @@ public class ObjectMapper {
                 // check if the IE field says 'Context'
                 if (parser.getContextTypeValue(n).contains("Area")) {
                     Area a = new Area();
-                    a.setName(parser.getLabelStringValue(n));
-                    a.setContextType("Area");
+                    a.set_name(parser.getLabelStringValue(n));
                     areaList.add(a);
                 } else if (parser.getContextTypeValue(n).contains("Role")) {
                     Persona c = new Persona();
-                    c.setName(parser.getLabelStringValue(n));
-                    c.setContextType("Role");
+                    c.set_name(parser.getLabelStringValue(n));
                     Context cc = new Context();
-                    cc.setContextType("Area");
-                    cc.setName(parser.getContextStringValue(n));
-                    c.setContext(cc);
+                    cc.set_name(parser.getContextStringValue(n));
+                    c.set_context(cc);
                     personaList.add(c);
                 }
             }
@@ -81,17 +93,19 @@ public class ObjectMapper {
                 if (parser.getIntentionalElementStringValue(n).contains("Condition")) {
                     //separately map every attribute to a new object, and do this for every object respectively
                     Resource r = new Resource();
-                    r.setName(parser.getLabelStringValue(n));
+                    r.set_name(parser.getLabelStringValue(n));
                     // check the areaList to assign the correct Context to the Resource
                     for (Area a : areaList) {
-                        if (a.getName().equals(parser.getContextStringValue(n))) {
-                            r.setContext(a);
+                        if (a.getParameter("name").equals(parser.getContextStringValue(n))) {
+                            r.set_context(a);
                         }
                     }
                     if (parser.getTransportStringValue(n) != null) {
-                        r.setTransport(parser.getTransportStringValue(n));
-                    } else r.setTransport("N/A");
-                    r.setElementType("Resource");
+                        Transport t = new Transport();
+                        t.set_name(parser.getTransportStringValue(n));
+                        r.set_transport(t);
+                    }
+                    r.set_IEType("Resource");
                     resourceList.add(r);
                 }
             }
@@ -104,17 +118,14 @@ public class ObjectMapper {
             if (n.hasContent()) {
                 // check if the IE field says 'Condition'
                 if (parser.getIntentionalElementStringValue(n).contains("Belief")) {
-                    Belief b = new Belief();
-                    b.setName(parser.getLabelStringValue(n));
+                    Intentional_Element b = new Intentional_Element();
+                    b.set_name(parser.getLabelStringValue(n));
                     for (Persona p : personaList) {
-                        if (p.getName().equals(parser.getContextStringValue(n))) {
-                            b.setContext(p);
+                        if (p.getParameter("name").equals(parser.getContextStringValue(n))) {
+                            b.set_context(p);
                         }
                     }
-                    if (parser.getTransportStringValue(n) != null) {
-                        b.setTransport(parser.getTransportStringValue(n));
-                    } else b.setTransport("N/A");
-                    b.setElementType("Belief");
+                    b.set_IEType("Belief");
                     beliefList.add(b);
                 }
             }
@@ -126,16 +137,13 @@ public class ObjectMapper {
             if (n.hasContent()) {
                 if (parser.getIntentionalElementStringValue(n).contains("Activity")) {
                     Attraction a = new Attraction();
-                    a.setName(parser.getLabelStringValue(n));
+                    a.set_name(parser.getLabelStringValue(n));
                     for (Persona p : personaList) {
-                        if (p.getName().equals(parser.getContextStringValue(n))) {
-                            a.setContext(p);
+                        if (p.getParameter("name").equals(parser.getContextStringValue(n))) {
+                            a.set_context(p);
                         }
                     }
-                    if (parser.getTransportStringValue(n) != null) {
-                        a.setTransport(parser.getTransportStringValue(n));
-                    } else a.setTransport("N/A");
-                    a.setElementType("Attraction");
+                    a.set_IEType("Attraction");
                     attractionList.add(a);
                 }
             }
@@ -146,17 +154,14 @@ public class ObjectMapper {
         for (Node n : parser.getNodeList()) {
             if (n.hasContent()) {
                 if (parser.getIntentionalElementStringValue(n).contains("Goal")) {
-                    Goal g = new Goal();
-                    g.setName(parser.getLabelStringValue(n));
+                    Intentional_Element g = new Intentional_Element();
+                    g.set_name(parser.getLabelStringValue(n));
                     for (Persona p : personaList) {
-                        if (p.getName().equals(parser.getContextStringValue(n))) {
-                            g.setContext(p);
+                        if (p.getParameter("name").equals(parser.getContextStringValue(n))) {
+                            g.set_context(p);
                         }
                     }
-                    if (parser.getTransportStringValue(n) != null) {
-                        g.setTransport(parser.getTransportStringValue(n));
-                    } else g.setTransport("N/A");
-                    g.setElementType("Goal");
+                    g.set_IEType("Goal");
                     goalList.add(g);
                 }
             }
@@ -167,17 +172,14 @@ public class ObjectMapper {
         for (Node n : parser.getNodeList()) {
             if (n.hasContent()) {
                 if (parser.getIntentionalElementStringValue(n).contains("Outcome")) {
-                    Outcome o = new Outcome();
-                    o.setName(parser.getLabelStringValue(n));
+                    Intentional_Element o = new Intentional_Element();
+                    o.set_name(parser.getLabelStringValue(n));
                     for (Area a : areaList) {
-                        if (a.getName().equals(parser.getContextStringValue(n))) {
-                            o.setContext(a);
+                        if (a.getParameter("name").equals(parser.getContextStringValue(n))) {
+                            o.set_context(a);
                         }
                     }
-                    if (parser.getTransportStringValue(n) != null) {
-                        o.setTransport(parser.getTransportStringValue(n));
-                    } else o.setTransport("N/A");
-                    o.setElementType("Outcome");
+                    o.set_IEType("Outcome");
                     outcomeList.add(o);
                 }
             }
@@ -208,11 +210,11 @@ public class ObjectMapper {
         this.personaList = personaList;
     }
 
-    public ArrayList<Belief> getBeliefList() {
+    public ArrayList<Intentional_Element> getBeliefList() {
         return beliefList;
     }
 
-    public void setBeliefList(ArrayList<Belief> beliefList) {
+    public void setBeliefList(ArrayList<Intentional_Element> beliefList) {
         this.beliefList = beliefList;
     }
 
@@ -224,19 +226,19 @@ public class ObjectMapper {
         this.attractionList = attractionList;
     }
 
-    public ArrayList<Goal> getGoalList() {
+    public ArrayList<Intentional_Element> getGoalList() {
         return goalList;
     }
 
-    public void setGoalList(ArrayList<Goal> goalList) {
+    public void setGoalList(ArrayList<Intentional_Element> goalList) {
         this.goalList = goalList;
     }
 
-    public ArrayList<Outcome> getOutcomeList() {
+    public ArrayList<Intentional_Element> getOutcomeList() {
         return outcomeList;
     }
 
-    public void setOutcomeList(ArrayList<Outcome> outcomeList) {
+    public void setOutcomeList(ArrayList<Intentional_Element> outcomeList) {
         this.outcomeList = outcomeList;
     }
 
@@ -246,5 +248,13 @@ public class ObjectMapper {
 
     public void setResourceList(ArrayList<Resource> resourceList) {
         this.resourceList = resourceList;
+    }
+
+    public Main getMain() {
+        return main;
+    }
+
+    public void setMain(Main main) {
+        this.main = main;
     }
 }
