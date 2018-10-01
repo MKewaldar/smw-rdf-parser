@@ -1,3 +1,5 @@
+package runners;
+
 import domain.*;
 import org.dom4j.Node;
 
@@ -6,7 +8,7 @@ import java.util.ArrayList;
 /**
  * Author: Marlon Kewaldar
  * Created on: 24-9-2018
- * Class responsible for mapping the information from the RDFParser into Java objects.
+ * Class responsible for mapping the information from the runners.RDFParser into Java objects.
  */
 public class ObjectMapper {
     private RDFParser parser;
@@ -28,6 +30,14 @@ public class ObjectMapper {
         attractionList = new ArrayList<>();
         goalList = new ArrayList<>();
         outcomeList = new ArrayList<>();
+        mapContext();
+        mapResource();
+        mapBelief();
+        mapAttraction();
+        mapGoal();
+        mapOutcome();
+        System.out.println(getResourceList());
+
     }
 
     public static void main(String[] args) {
@@ -182,6 +192,53 @@ public class ObjectMapper {
         this.parser = parser;
     }
 
+    public ArrayList<Area> getAreaList() {
+        return areaList;
+    }
+
+    public void setAreaList(ArrayList<Area> areaList) {
+        this.areaList = areaList;
+    }
+
+    public ArrayList<Persona> getPersonaList() {
+        return personaList;
+    }
+
+    public void setPersonaList(ArrayList<Persona> personaList) {
+        this.personaList = personaList;
+    }
+
+    public ArrayList<Belief> getBeliefList() {
+        return beliefList;
+    }
+
+    public void setBeliefList(ArrayList<Belief> beliefList) {
+        this.beliefList = beliefList;
+    }
+
+    public ArrayList<Attraction> getAttractionList() {
+        return attractionList;
+    }
+
+    public void setAttractionList(ArrayList<Attraction> attractionList) {
+        this.attractionList = attractionList;
+    }
+
+    public ArrayList<Goal> getGoalList() {
+        return goalList;
+    }
+
+    public void setGoalList(ArrayList<Goal> goalList) {
+        this.goalList = goalList;
+    }
+
+    public ArrayList<Outcome> getOutcomeList() {
+        return outcomeList;
+    }
+
+    public void setOutcomeList(ArrayList<Outcome> outcomeList) {
+        this.outcomeList = outcomeList;
+    }
 
     public ArrayList<Resource> getResourceList() {
         return resourceList;

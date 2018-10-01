@@ -6,4 +6,7 @@ package domain;
  */
 public class Area extends Context {
 
+    private double latitude;
+    private double longitude;
+
 }

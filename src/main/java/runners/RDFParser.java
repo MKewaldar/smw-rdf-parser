@@ -1,3 +1,5 @@
+package runners;
+
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Node;
@@ -92,7 +94,7 @@ public class RDFParser {
                 //Intentional element type
                 printIntentionalElementStringValue(node);
                 //Contributes to relationships
-            //    printContributesToRelationships(node);
+                //    printContributesToRelationships(node);
                 //Depends on relationships
                 //printDependsOnRelationships(node);
                 System.out.println();
@@ -180,8 +182,7 @@ public class RDFParser {
                 i++;
             }
             return map;
-        }
-        else return null;
+        } else return null;
     }
 
     private void printContributesToRelationships(Node node) {
