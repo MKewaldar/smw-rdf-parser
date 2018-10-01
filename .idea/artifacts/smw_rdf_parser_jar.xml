@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="smw_rdf_parser:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/smw_rdf_parser_jar</output-path>
+    <root id="archive" name="smw_rdf_parser.jar">
+      <element id="module-output" name="smw_rdf_parser" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/dom4j/dom4j/2.1.0/dom4j-2.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/jaxen/jaxen/1.1.6/jaxen-1.1.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

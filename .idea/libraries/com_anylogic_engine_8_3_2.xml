@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.anylogic.engine_8.3.2">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/libs/com.anylogic.engine_8.3.2.201807061745" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/com.anylogic.engine_8.3.2.201807061745" recursive="false" />
+  </library>
+</component>

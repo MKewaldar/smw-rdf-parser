@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="EMontLib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/EMont Casus1/EMontLib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

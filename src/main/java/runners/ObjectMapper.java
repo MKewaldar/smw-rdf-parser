@@ -1,6 +1,5 @@
 package runners;
 
-import com.anylogic.engine.Point;
 import emont_casus.*;
 import org.dom4j.Node;
 
@@ -33,50 +32,37 @@ public class ObjectMapper {
         attractionList = new ArrayList<>();
         goalList = new ArrayList<>();
         outcomeList = new ArrayList<>();
-        mapContext();
-        mapResource();
-        mapBelief();
-        mapAttraction();
-        mapGoal();
-        mapOutcome();
-        System.out.println(getResourceList());
-//        getAreaList().get(0).setLatLon(51.499123, 3.613360);
-//        getAreaList().get(1).setLatLon(51.455316, 3.585747);
-        getAreaList().get(0).set_latitude(51.499123);
-        getAreaList().get(0).set_longitude(3.613360);
-        getAreaList().get(1).set_latitude(51.455316);
-        getAreaList().get(1).set_longitude(3.585747);
-
-
-    }
-
-    public Main._areaList_Population initAreaList(Main._areaList_Population areaList, Main main) {
-        for (Area a : getAreaList()) {
-            main.add_areaList(a.name, a.context, a.latitude, a.longitude);
-        }
-        for (Area a : main.areaList) {
-            Point p = new Point();
-            p.setLatLon(a.latitude, a.longitude);
-            a.setLocation(p);
-        }
-        return areaList;
+        mapEverything();
+        createMockLocationData();
     }
 
     public static void main(String[] args) {
         ObjectMapper map = new ObjectMapper();
     }
 
+    public void mapEverything() {
+        mapContext();
+        mapResource();
+        mapBelief();
+        mapAttraction();
+        mapGoal();
+        mapOutcome();
+    }
+
     public void mapContext() {
         for (Node n : parser.getNodeList()) {
             if (n.hasContent()) {
-                // check if the IE field says 'Context'
+                // check if the IE field says 'Area'
                 if (parser.getContextTypeValue(n).contains("Area")) {
                     Area a = new Area();
                     a.set_name(parser.getLabelStringValue(n));
                     areaList.add(a);
-                } else if (parser.getContextTypeValue(n).contains("Role")) {
+                }
+                // otherwise, check if it contains "Role" (Persona)
+                else if (parser.getContextTypeValue(n).contains("Role")) {
                     Persona c = new Persona();
                     c.set_name(parser.getLabelStringValue(n));
+                    // ensure the Context of the Context is initialized correctly
                     Context cc = new Context();
                     cc.set_name(parser.getContextStringValue(n));
                     c.set_context(cc);
@@ -84,6 +70,17 @@ public class ObjectMapper {
                 }
             }
         }
+    }
+
+    public void createMockLocationData() {
+        getAreaList().get(0).set_latitude(51.499123);
+        getAreaList().get(0).set_longitude(3.613360);
+        getAreaList().get(1).set_latitude(51.455316);
+        getAreaList().get(1).set_longitude(3.585747);
+        getPersonaList().get(0).set_latitude(51.451770);
+        getPersonaList().get(0).set_longitude(4.036266);
+        getResourceList().get(0).set_latitude(51.519658);
+        getResourceList().get(0).set_longitude(3.580812);
     }
 
     public void mapResource() {
