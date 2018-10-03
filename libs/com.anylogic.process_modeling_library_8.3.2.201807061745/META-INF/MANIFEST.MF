@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.anylogic.process_modeling_library;singleton:=
+ true
+Export-Package: com.anylogic.process_modeling_library
+Bundle-Name: Standard_library Plug-in
+Bundle-Version: 8.3.2.201807061745
+Bundle-ClassPath: StandardLibPlugin.jar
+Require-Bundle: org.eclipse.core.runtime,com.anylogic.core,com.anylogi
+ c.ui,org.eclipse.help.base,org.eclipse.help.ui,org.eclipse.help.webap
+ p
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.anylogic.process_modeling_library.StandardLibPlu
+ gin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: AnyLogic North America
+Eclipse-LazyStart: true
+
+

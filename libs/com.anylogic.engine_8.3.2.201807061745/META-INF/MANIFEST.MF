@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.anylogic.engine
+Export-Package: com.anylogic.engine,com.anylogic.engine.analysis,com.a
+ nylogic.engine.connectivity,com.anylogic.engine.database,com.anylogic
+ .engine.elements,com.anylogic.engine.gis,com.anylogic.engine.graph,co
+ m.anylogic.engine.graph.algorithms,com.anylogic.engine.graph.algorith
+ ms.impl,com.anylogic.engine.graph.algorithms.shortestpath,com.anylogi
+ c.engine.graph.algorithms.shortestpath.impl,com.anylogic.engine.graph
+ .algorithms.triangulation,com.anylogic.engine.graph.algorithms.triang
+ ulation.impl,com.anylogic.engine.gui,com.anylogic.engine.internal,com
+ .anylogic.engine.internal.annotation.code_wizard,com.anylogic.engine.
+ internal.expressions,com.anylogic.engine.internal.numeric_methods,com
+ .anylogic.engine.internal.presentation,com.anylogic.engine.markup,com
+ .anylogic.engine.presentation
+Bundle-Name: AnyLogic Engine
+Bundle-Version: 8.3.2.201807061745
+Bundle-ClassPath: com.anylogic.engine.jar,com.anylogic.engine.plugin.j
+ ar
+Require-Bundle: com.anylogic.optimizer,org.eclipse.core.runtime,com.an
+ ylogic.gis;resolution:=optional,org.apache.poi;bundle-version="1.0.0"
+ ;resolution:=optional,org.eclipse.jdt.annotation;bundle-version="2.0.
+ 0",com.anylogic.third_party_libraries
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.anylogic.engine.AnyLogicEnginePlugin
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: AnyLogic North America
+
+

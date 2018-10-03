@@ -81,6 +81,7 @@ public class ObjectMapper {
         getPersonaList().get(0).set_longitude(4.036266);
         getResourceList().get(0).set_latitude(51.519658);
         getResourceList().get(0).set_longitude(3.580812);
+
     }
 
     public void mapResource() {
