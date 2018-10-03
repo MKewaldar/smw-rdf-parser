@@ -6,7 +6,7 @@ import emont_casus.*;
 import java.util.ArrayList;
 
 /**
- * Author: Marlon
+ * Author: Marlon Kewaldar
  * Created on: 1-10-2018
  */
 public class AnyLogicMapper {
