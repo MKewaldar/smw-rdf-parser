@@ -52,7 +52,7 @@ public class ObjectMapper {
     public void mapContext() {
         for (Node n : parser.getNodeList()) {
             if (n.hasContent()) {
-                // check if the IE field says 'Area'
+                // check if the IE field says "Area"
                 if (parser.getContextTypeValue(n).contains("Area")) {
                     Area a = new Area();
                     a.set_name(parser.getLabelStringValue(n));
