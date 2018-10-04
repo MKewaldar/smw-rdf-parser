@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="ProcessModelingLibrary">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/libs/com.anylogic.process_modeling_library_8.3.2.201807061745/lib/ProcessModelingLibrary.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/ProcessModelingLibrary.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
