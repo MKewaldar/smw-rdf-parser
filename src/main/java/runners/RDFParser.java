@@ -26,6 +26,7 @@ public class RDFParser {
     private List<Node> nodeList;
 
 
+
     public RDFParser() {
         initGUI();
     }
@@ -216,12 +217,12 @@ public class RDFParser {
         } else return null;
     }
 
-//    private void printDependsOnRelationships(Node node) {
-//        if (node.selectSingleNode("/rdf:RDF/swivt:Subject/property:Element_link/@rdf:resource") != null) {
-//            for (Node n : node.selectNodes("/rdf:RDF/swivt:Subject/property:Element_link/@rdf:resource")) {
-//                System.out.println("Depends on: " +
-//                        node.selectSingleNode("/rdf:RDF/swivt:Subject/property:Element_link/@rdf:resource").getStringValue());
-//            }
-//        }
-//    }
+    private void printDependsOnRelationships(Node node) {
+        if (node.selectSingleNode("/rdf:RDF/swivt:Subject/property:Element_link/@rdf:resource") != null) {
+            for (Node n : node.selectNodes("/rdf:RDF/swivt:Subject/property:Element_link/@rdf:resource")) {
+                System.out.println("Depends on: " +
+                        node.selectSingleNode("/rdf:RDF/swivt:Subject/property:Element_link/@rdf:resource").getStringValue());
+            }
+        }
+    }
 }

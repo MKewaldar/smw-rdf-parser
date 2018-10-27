@@ -20,10 +20,14 @@ public class ObjectMapper {
     private ArrayList<Intentional_Element> goalList;
     private ArrayList<Intentional_Element> outcomeList;
     private Main main;
+    private Intentional_Element blank = new Resource();
+
 
 
 
     public ObjectMapper() {
+
+        initBlank();
         parser = new RDFParser();
         areaList = new ArrayList<>();
         personaList = new ArrayList<>();
@@ -85,6 +89,7 @@ public class ObjectMapper {
     }
 
     public void mapResource() {
+        resourceList.add((Resource)blank);
         for (Node n : parser.getNodeList()) {
             if (n.hasContent()) {
                 // check if the IE field says 'Condition'
@@ -212,6 +217,19 @@ public class ObjectMapper {
         return beliefList;
     }
 
+    public Intentional_Element getBlank() {
+        return blank;
+    }
+
+    public void setBlank(Intentional_Element blank) {
+        this.blank = blank;
+    }
+
+    public void initBlank() {
+        getBlank().set_name("NA");
+        getBlank().set_IEType("NA");
+    }
+
     public void setBeliefList(ArrayList<Intentional_Element> beliefList) {
         this.beliefList = beliefList;
     }
@@ -254,5 +272,17 @@ public class ObjectMapper {
 
     public void setMain(Main main) {
         this.main = main;
+    }
+
+    public void setRelationships() {
+        for (Attraction r : getAttractionList()) {
+            if (r.getName().equals("Aankomen_thuisbasis")) {
+                for (Intentional_Element e : getResourceList()) {
+                    if (e.getName().equals("Centraal_Station_Middelburg")) {
+                        r.set_dependsOn(e);
+                    }
+                }
+            }
+        }
     }
 }

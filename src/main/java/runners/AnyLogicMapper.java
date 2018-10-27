@@ -1,5 +1,6 @@
 package runners;
 
+import com.anylogic.engine.Agent;
 import com.anylogic.engine.Point;
 import emont_casus.*;
 
@@ -34,7 +35,7 @@ public class AnyLogicMapper {
 
     public Main._attractionList_Population initAttractionList(Main._attractionList_Population attractionList, Main main) {
         for (Attraction a : map.getAttractionList()) {
-            main.add_attractionList("NA", "NA", "NA", a.name, a.latitude,
+            main.add_attractionList(map.getBlank(), map.getBlank(), map.getBlank(), a.name, a.latitude,
                     a.longitude, a.IEType, a.context);
         }
         for (Attraction a : main.attractionList) {
@@ -59,7 +60,7 @@ public class AnyLogicMapper {
 
     public Main._resourceList_Population initResourceList(Main._resourceList_Population resourceList, Main main) {
         for (Resource r : map.getResourceList()) {
-            main.add_resourceList("NA", "NA", "NA", r.name
+            main.add_resourceList(map.getBlank(), map.getBlank(), map.getBlank() , r.name
                     , r.latitude, r.longitude,
                     r.IEType, r.context, r.transport);
         }
@@ -68,6 +69,7 @@ public class AnyLogicMapper {
             p.setLatLon(r.latitude, r.longitude);
             r.setLocation(p);
         }
+
         return resourceList;
     }
 
@@ -78,7 +80,7 @@ public class AnyLogicMapper {
         ieCollection.addAll(map.getOutcomeList());
 
         for (Intentional_Element i : ieCollection) {
-            main.add_intentionalElementList("NA", "NA", "NA", i.name,
+            main.add_intentionalElementList(map.getBlank(),  map.getBlank(), map.getBlank() , i.name,
                     i.latitude, i.longitude, i.IEType, i.context);
         }
         for (Intentional_Element i : main.intentionalElementList) {
@@ -87,5 +89,13 @@ public class AnyLogicMapper {
             i.setLocation(p);
         }
         return IEList;
+    }
+
+    public ObjectMapper getMap() {
+        return map;
+    }
+
+    public void setMap(ObjectMapper map) {
+        this.map = map;
     }
 }
