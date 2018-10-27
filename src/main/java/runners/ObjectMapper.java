@@ -4,6 +4,7 @@ import emont_casus.*;
 import org.dom4j.Node;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  * Author: Marlon Kewaldar
@@ -85,7 +86,14 @@ public class ObjectMapper {
         getPersonaList().get(0).set_longitude(4.036266);
         getResourceList().get(0).set_latitude(51.519658);
         getResourceList().get(0).set_longitude(3.580812);
-
+        getResourceList().get(1).set_latitude(51.537331);
+        getResourceList().get(1).set_longitude(3.536596);
+        getResourceList().get(2).set_latitude(51.586082);
+        getResourceList().get(2).set_longitude(3.585127);
+        getResourceList().get(3).set_latitude(51.578329);
+        getResourceList().get(3).set_longitude(3.683437);
+        getResourceList().get(4).set_latitude(51.526728);
+        getResourceList().get(4).set_longitude(3.786422);
     }
 
     public void mapResource() {

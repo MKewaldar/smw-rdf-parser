@@ -98,4 +98,5 @@ public class AnyLogicMapper {
     public void setMap(ObjectMapper map) {
         this.map = map;
     }
+
 }
