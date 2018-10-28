@@ -583,8 +583,8 @@ this.practices.add(1, this.attractionList.get(1));]]></StartupCode>
 					<Height>400</Height>
 					<GISShapes>
 					</GISShapes>
-					<Latitude>51.510613186267854</Latitude>
-					<Longitude>3.593115341444938</Longitude>
+					<Latitude>51.51573897530569</Latitude>
+					<Longitude>3.5991553586364535</Longitude>
 					<Scale>200000</Scale>
 					<BorderColor>-4144960</BorderColor>
 					<FillColor>-1</FillColor>

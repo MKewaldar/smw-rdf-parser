@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="ProcessModelingLibrary">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/libs/ProcessModelingLibrary.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
